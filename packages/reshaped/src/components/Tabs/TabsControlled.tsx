@@ -1,6 +1,6 @@
 "use client";
 
-import { useElementId } from "@reshaped/headless";
+import { useElementId } from "@lang-ui/headless";
 import React from "react";
 
 import { TabsProvider } from "./TabsContext";

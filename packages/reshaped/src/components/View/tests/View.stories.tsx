@@ -1,4 +1,4 @@
-import { useToggle } from "@reshaped/headless";
+import { useToggle } from "@lang-ui/headless";
 import { StoryObj } from "@storybook/react-vite";
 import React, { useEffect, useState } from "react";
 import { expect } from "storybook/test";
@@ -18,7 +18,7 @@ export default {
 	component: View,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/view",
+			url: "https://lang-ui.so/docs/components/view",
 		},
 	},
 };

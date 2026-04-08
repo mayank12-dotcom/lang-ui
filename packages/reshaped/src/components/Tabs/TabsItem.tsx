@@ -1,7 +1,7 @@
 "use client";
 
-import { classNames, useIsomorphicLayoutEffect } from "@reshaped/headless";
-import { findParent } from "@reshaped/headless/internal";
+import { classNames, useIsomorphicLayoutEffect } from "@lang-ui/headless";
+import { findParent } from "@lang-ui/headless/internal";
 import React from "react";
 
 import Actionable, { type ActionableRef } from "@/components/Actionable";

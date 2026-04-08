@@ -1,10 +1,10 @@
 {
-  "name": "reshaped",
+  "name": "lang-ui",
   "description": "Professionally crafted design system in React and Figma for building products of any scale and complexity",
   "version": "3.11.0-canary.4",
   "license": "MIT",
-  "email": "hello@reshaped.so",
-  "homepage": "https://reshaped.so",
+  "email": "hello@lang-ui.so",
+  "homepage": "https://lang-ui.so",
   "keywords": [
     "react",
     "ui",
@@ -29,7 +29,7 @@
   "author": {
     "name": "Dmitry Belyaev",
     "email": "blv.dmitry@gmail.com",
-    "url": "https://reshaped.so"
+    "url": "https://lang-ui.so"
   },
   "sideEffects": [
     "*.css"
@@ -73,7 +73,7 @@
     "./package.json": "./package.json"
   },
   "bin": {
-    "reshaped": "./bin/cli.js"
+    "lang-ui": "./bin/cli.js"
   },
   "scripts": {
     "clean": "bash ./bin/clean.sh",
@@ -100,7 +100,7 @@
   },
   "dependencies": {
     "@csstools/postcss-global-data": "4.0.0",
-    "@reshaped/headless": "workspace:*",
+    "@lang-ui/headless": "workspace:*",
     "@types/culori": "4.0.1",
     "chalk": "4.1.2",
     "commander": "14.0.3",

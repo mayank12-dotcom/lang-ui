@@ -12,7 +12,7 @@ export default {
 	component: Stepper,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/stepper",
+			url: "https://lang-ui.so/docs/components/stepper",
 		},
 	},
 };

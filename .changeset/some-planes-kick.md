@@ -1,5 +1,5 @@
 ---
-"@reshaped/headless": minor
+"@lang-ui/headless": minor
 "reshaped": minor
 ---
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useHotkeys } from "@reshaped/headless";
+import { useHotkeys } from "@lang-ui/headless";
 import React from "react";
 
 import { useFormControl } from "@/components/FormControl";

@@ -16,7 +16,7 @@ export default {
 	component: Badge,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/badge",
+			url: "https://lang-ui.so/docs/components/badge",
 		},
 	},
 };
@@ -330,14 +330,14 @@ export const container = {
 export const href: StoryObj = {
 	name: "href",
 	render: () => (
-		<Badge href="https://reshaped.so" dismissAriaLabel="Dismiss">
+		<Badge href="https://lang-ui.so" dismissAriaLabel="Dismiss">
 			Badge
 		</Badge>
 	),
 	play: async ({ canvas }) => {
 		const link = canvas.getByRole("link");
 
-		expect(link).toHaveAttribute("href", "https://reshaped.so");
+		expect(link).toHaveAttribute("href", "https://lang-ui.so");
 	},
 };
 

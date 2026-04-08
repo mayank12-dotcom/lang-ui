@@ -1,4 +1,4 @@
-import { classNames } from "@reshaped/headless";
+import { classNames } from "@lang-ui/headless";
 import React, { forwardRef } from "react";
 
 import Actionable from "@/components/Actionable";

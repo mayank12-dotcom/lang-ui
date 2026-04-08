@@ -1,6 +1,6 @@
 import type * as G from "@/types/global";
-import type { Attributes, ClassName } from "@reshaped/headless";
-import type { Coordinates } from "@reshaped/headless/internal";
+import type { Attributes, ClassName } from "@lang-ui/headless";
+import type { Coordinates } from "@lang-ui/headless/internal";
 import type React from "react";
 
 export type Props = {

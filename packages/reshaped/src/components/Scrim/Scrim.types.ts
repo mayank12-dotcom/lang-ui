@@ -1,7 +1,7 @@
 import React from "react";
 
 import type { ViewProps } from "@/components/View";
-import type { Attributes, ClassName } from "@reshaped/headless";
+import type { Attributes, ClassName } from "@lang-ui/headless";
 
 export type Props = {
 	/** Node for inserting content */

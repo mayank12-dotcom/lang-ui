@@ -10,7 +10,7 @@ export default {
 	component: Grid,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/utilities/grid",
+			url: "https://lang-ui.so/docs/utilities/grid",
 		},
 	},
 };

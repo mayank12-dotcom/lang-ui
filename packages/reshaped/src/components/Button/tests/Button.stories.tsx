@@ -14,7 +14,7 @@ export default {
 	component: Button,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/button",
+			url: "https://lang-ui.so/docs/components/button",
 		},
 	},
 };
@@ -667,11 +667,11 @@ export const composition = {
 
 export const href: StoryObj = {
 	name: "href",
-	render: () => <Button href="https://reshaped.so">Trigger</Button>,
+	render: () => <Button href="https://lang-ui.so">Trigger</Button>,
 	play: async ({ canvas }) => {
 		const el = canvas.getByRole("link");
 
-		expect(el).toHaveAttribute("href", "https://reshaped.so");
+		expect(el).toHaveAttribute("href", "https://lang-ui.so");
 	},
 };
 
@@ -704,7 +704,7 @@ export const hrefOnClick: StoryObj<{ handleClick: ReturnType<typeof fn> }> = {
 				e.preventDefault();
 				args.handleClick(e);
 			}}
-			href="https://reshaped.so"
+			href="https://lang-ui.so"
 		>
 			Trigger
 		</Button>
@@ -715,7 +715,7 @@ export const hrefOnClick: StoryObj<{ handleClick: ReturnType<typeof fn> }> = {
 
 		await userEvent.click(el);
 
-		expect(el).toHaveAttribute("href", "https://reshaped.so");
+		expect(el).toHaveAttribute("href", "https://lang-ui.so");
 		expect(handleClick).toHaveBeenCalledTimes(1);
 		expect(handleClick).toHaveBeenCalledWith(expect.objectContaining({ target: el }));
 	},

@@ -1,4 +1,4 @@
-import type { ClassName, Attributes } from "@reshaped/headless";
+import type { ClassName, Attributes } from "@lang-ui/headless";
 
 type Side = "start" | "end" | "top" | "bottom" | "inline" | "block" | "all";
 

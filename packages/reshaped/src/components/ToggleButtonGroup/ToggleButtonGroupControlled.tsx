@@ -1,6 +1,6 @@
 "use client";
 
-import { useKeyboardArrowNavigation } from "@reshaped/headless";
+import { useKeyboardArrowNavigation } from "@lang-ui/headless";
 import React from "react";
 
 import Button from "@/components/Button";

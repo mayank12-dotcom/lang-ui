@@ -9,7 +9,7 @@ export default {
 	component: Container,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/utilities/container",
+			url: "https://lang-ui.so/docs/utilities/container",
 		},
 	},
 };

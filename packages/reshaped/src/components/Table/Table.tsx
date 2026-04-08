@@ -1,6 +1,6 @@
 "use client";
 
-import { classNames } from "@reshaped/headless";
+import { classNames } from "@lang-ui/headless";
 import React, { isValidElement } from "react";
 
 import useFadeSide from "@/hooks/_private/useFadeSide";

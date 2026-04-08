@@ -15,7 +15,7 @@ export default {
 	component: HiddenInput,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/utilities/hidden-input",
+			url: "https://lang-ui.so/docs/utilities/hidden-input",
 		},
 	},
 };

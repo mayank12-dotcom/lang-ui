@@ -2,12 +2,12 @@ Looking to contribute? We're excited to have you! ✨
 
 ## Overview
 
-While Reshaped is open-source, we might be quite opinionated about what should be included in the library.
+While Lang UI is open-source, we might be quite opinionated about what should be included in the library.
 There are multiple reasons for this:
 
 - We need to make sure all changes make sense in long term. We make a maximum of 1 major release per year and a lot of the APIs should be stable for years to come.
 - All changes we're making in code are always synced with the Figma library and sometimes are decisions and priorities are impacted by the features available in Figma.
-- We make sure that maintenance of Reshaped is sustainable for us so we might be saying no to some ideas just because of their maintenance cost. Instead we would encourage the community to build their solutions on top of Reshaped.
+- We make sure that maintenance of Lang UI is sustainable for us so we might be saying no to some ideas just because of their maintenance cost. Instead we would encourage the community to build their solutions on top of Lang UI.
 
 ### Good issues to work on
 

@@ -1,7 +1,7 @@
 "use client";
 
-import { useIsomorphicLayoutEffect } from "@reshaped/headless";
-import { classNames } from "@reshaped/headless";
+import { useIsomorphicLayoutEffect } from "@lang-ui/headless";
+import { classNames } from "@lang-ui/headless";
 import React from "react";
 
 import { onNextFrame } from "@/utilities/animation";

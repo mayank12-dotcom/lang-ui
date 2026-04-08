@@ -10,7 +10,7 @@ const rgb = useMode(modeRgb);
 export const hexToOklch = (hex: string): Oklch => {
 	const result = oklch(formatHex(hex));
 
-	if (!result) throw new Error(`[Reshaped] Can't convert ${hex} to oklch`);
+	if (!result) throw new Error(`[Lang UI] Can't convert ${hex} to oklch`);
 	return result;
 };
 

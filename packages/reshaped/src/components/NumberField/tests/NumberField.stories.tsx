@@ -10,7 +10,7 @@ export default {
 	component: NumberField,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/number-field",
+			url: "https://lang-ui.so/docs/components/number-field",
 		},
 	},
 };

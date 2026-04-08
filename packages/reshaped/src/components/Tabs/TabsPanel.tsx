@@ -1,7 +1,7 @@
 "use client";
 
-import { classNames } from "@reshaped/headless";
-import { getFocusableElements } from "@reshaped/headless/internal";
+import { classNames } from "@lang-ui/headless";
+import { getFocusableElements } from "@lang-ui/headless/internal";
 import React from "react";
 
 import s from "./Tabs.module.css";

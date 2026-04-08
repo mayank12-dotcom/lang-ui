@@ -29,7 +29,7 @@ const parseColor = (color: HexColor | PassedToken) => {
 	const dark = hexDark ? hexToOklch(hexDark) : undefined;
 
 	if (!light) {
-		throw new Error(`[Reshaped] Failed when parsing color: ${JSON.stringify(color)}`);
+		throw new Error(`[Lang UI] Failed when parsing color: ${JSON.stringify(color)}`);
 	}
 
 	return { light, dark };

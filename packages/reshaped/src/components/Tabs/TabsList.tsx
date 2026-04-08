@@ -5,7 +5,7 @@ import {
 	useIsomorphicLayoutEffect,
 	useRTL,
 	useKeyboardArrowNavigation,
-} from "@reshaped/headless";
+} from "@lang-ui/headless";
 import React from "react";
 
 import Actionable from "@/components/Actionable";

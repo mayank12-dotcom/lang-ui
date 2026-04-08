@@ -49,7 +49,7 @@ const config: StorybookConfig = {
 		return mergeConfig(config, {
 			resolve: {
 				alias: {
-					"@reshaped/headless": resolve(__dirname, "../packages/headless/src"),
+					"@lang-ui/headless": resolve(__dirname, "../packages/headless/src"),
 				},
 			},
 			plugins: [

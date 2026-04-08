@@ -1,11 +1,11 @@
-# @reshaped/utilities
+# @lang-ui/utilities
 
-`@reshaped/utilities` is a standalone package that provides common utilities for building components and web applications with any framework. These utilities handle common patterns like focus management, scroll locking, DOM manipulation, and more.
+`@lang-ui/utilities` is a standalone package that provides common utilities for building components and web applications with any framework. These utilities handle common patterns like focus management, scroll locking, DOM manipulation, and more.
 
-Reshaped uses this package internally to power its component library, and you can use the same utilities in your own projects to build consistent, accessible experiences. In case you're using React, check `@reshaped/headless` instead as it covers more APIs and provides a better built-in integration with React.
+Lang UI uses this package internally to power its component library, and you can use the same utilities in your own projects to build consistent, accessible experiences. In case you're using React, check `@lang-ui/headless` instead as it covers more APIs and provides a better built-in integration with React.
 
 ```
-npm install @reshaped/utilities
+npm install @lang-ui/utilities
 ```
 
 ## API overview
@@ -13,7 +13,7 @@ npm install @reshaped/utilities
 ### Flyout
 
 ```ts
-import { Flyout } from "@reshaped/utilities";
+import { Flyout } from "@lang-ui/utilities";
 
 const flyout = new Flyout({
 	content: contentElement,
@@ -91,7 +91,7 @@ export type Options = {
 ### TrapFocus
 
 ```ts
-import { TrapFocus } from "@reshaped/utilities";
+import { TrapFocus } from "@lang-ui/utilities";
 
 class Modal {
 	trapFocus;
@@ -150,12 +150,12 @@ trapFocus.release({
 
 ### classNames
 
-The `classNames` utility is a lightweight function for combining multiple class names into a single string. It's similar to the popular classnames library but is included directly in Reshaped, eliminating the need for an additional dependency.
+The `classNames` utility is a lightweight function for combining multiple class names into a single string. It's similar to the popular classnames library but is included directly in Lang UI, eliminating the need for an additional dependency.
 
 Use this utility when building custom components that need to conditionally apply CSS classes based on props, state, or other conditions. It handles various input types including strings, booleans, null, and undefined values, making it easy to compose dynamic class names.
 
 ```tsx
-import { classNames } from "@reshaped/utilities";
+import { classNames } from "@lang-ui/utilities";
 import styles from "./Button.module.css";
 
 const Button = ({ variant, disabled, className }) => {
@@ -183,7 +183,7 @@ const containerClassNames = classNames(
 ### lockScroll
 
 ```ts
-import { lockScroll } from "@reshaped/utilities";
+import { lockScroll } from "@lang-ui/utilities";
 
 class Modal {
 	unlock;
@@ -225,7 +225,7 @@ unlock({
 ### isRTL
 
 ```ts
-import { isRTL } from "@reshaped/utilities";
+import { isRTL } from "@lang-ui/utilities";
 
 // Call anywhere in your code
 const rtl = isRTL();

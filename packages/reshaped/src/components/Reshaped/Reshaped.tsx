@@ -1,6 +1,6 @@
 "use client";
 
-import { Reshaped as HeadlessReshaped, classNames } from "@reshaped/headless";
+import { Lang UI as HeadlessLang UI, classNames } from "@lang-ui/headless";
 import React from "react";
 
 import { GlobalColorMode, PrivateTheme } from "@/components/Theme";
@@ -8,16 +8,16 @@ import { useGlobalColorMode } from "@/components/Theme/useTheme";
 import { ToastProvider } from "@/components/Toast";
 import { SingletonViewportProvider } from "@/hooks/_private/useSingletonViewport";
 
-import s from "./Reshaped.module.css";
+import s from "./Lang UI.module.css";
 
-import type * as T from "./Reshaped.types";
+import type * as T from "./Lang UI.types";
 
-import "./Reshaped.css";
+import "./Lang UI.css";
 
-const Reshaped: React.FC<T.Props> = (props) => {
+const Lang UI: React.FC<T.Props> = (props) => {
 	const {
 		theme,
-		defaultTheme = "reshaped",
+		defaultTheme = "lang-ui",
 		colorMode,
 		defaultColorMode,
 		defaultViewport,
@@ -30,7 +30,7 @@ const Reshaped: React.FC<T.Props> = (props) => {
 	const parentGlobalColorMode = useGlobalColorMode();
 
 	return (
-		<HeadlessReshaped>
+		<HeadlessLang UI>
 			<GlobalColorMode
 				defaultMode={defaultColorMode || parentGlobalColorMode.mode || "light"}
 				mode={colorMode}
@@ -48,10 +48,10 @@ const Reshaped: React.FC<T.Props> = (props) => {
 					</SingletonViewportProvider>
 				</PrivateTheme>
 			</GlobalColorMode>
-		</HeadlessReshaped>
+		</HeadlessLang UI>
 	);
 };
 
-Reshaped.displayName = "Reshaped";
+Lang UI.displayName = "Lang UI";
 
-export default Reshaped;
+export default Lang UI;

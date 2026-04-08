@@ -1,5 +1,5 @@
 import type { IconProps } from "@/components/Icon";
-import type { Attributes, ClassName } from "@reshaped/headless";
+import type { Attributes, ClassName } from "@lang-ui/headless";
 import type React from "react";
 
 export type SelectionState = {

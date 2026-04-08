@@ -9,7 +9,7 @@ export default {
 	component: Pagination,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/pagination",
+			url: "https://lang-ui.so/docs/components/pagination",
 		},
 	},
 };

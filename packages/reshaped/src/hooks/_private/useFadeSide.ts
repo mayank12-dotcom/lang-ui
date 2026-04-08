@@ -1,7 +1,7 @@
 "use client";
 
-import { useIsomorphicLayoutEffect, useRTL } from "@reshaped/headless";
-import { rafThrottle } from "@reshaped/headless/internal";
+import { useIsomorphicLayoutEffect, useRTL } from "@lang-ui/headless";
+import { rafThrottle } from "@lang-ui/headless/internal";
 import React from "react";
 
 const useFadeSide = (

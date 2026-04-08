@@ -1,4 +1,4 @@
-import { useToggle } from "@reshaped/headless";
+import { useToggle } from "@lang-ui/headless";
 import { StoryObj } from "@storybook/react-vite";
 import React from "react";
 import { fireEvent, fn, expect } from "storybook/test";

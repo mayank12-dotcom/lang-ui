@@ -1,6 +1,6 @@
 "use client";
 
-import { lockScroll } from "@reshaped/utilities";
+import { lockScroll } from "@lang-ui/utilities";
 import React from "react";
 
 const useScrollLock = (options?: {

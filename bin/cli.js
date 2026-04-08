@@ -9,13 +9,13 @@ const { addTheme, addThemeFragment } = require("../dist/cli/theming");
 const program = new Command();
 
 const importJSConfig = (path) => {
-	console.log(chalk.yellow(`Using Reshaped config at ${path}`));
+	console.log(chalk.yellow(`Using Lang UI config at ${path}`));
 	const config = require(path);
 	return config.default || config;
 };
 
 program
-	.description("Create new themes for Reshaped")
+	.description("Create new themes for Lang UI")
 	.command("theming")
 	.requiredOption("-o, --output <path>", "Path to output generated themes")
 	.option("-c, --config <path>", "Path to the config file")
@@ -38,11 +38,11 @@ program
 		});
 
 		if (!configPath) {
-			console.error(chalk.red("Error: Reshaped config not found"));
+			console.error(chalk.red("Error: Lang UI config not found"));
 			return;
 		}
 
-		console.log(chalk.blue("Processing Reshaped themes..."));
+		console.log(chalk.blue("Processing Lang UI themes..."));
 		const config = importJSConfig(configPath);
 		const { themes, themeFragments, themeOptions } = config;
 

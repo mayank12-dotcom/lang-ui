@@ -11,7 +11,7 @@ export default {
 	component: Link,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/breadcrumbs",
+			url: "https://lang-ui.so/docs/components/breadcrumbs",
 		},
 	},
 };
@@ -21,8 +21,8 @@ export const variant = {
 	render: () => (
 		<Example>
 			<Example.Item title="variant: underline">
-				<Link href="http://reshaped.so" attributes={{ target: "_blank" }}>
-					Reshaped
+				<Link href="http://lang-ui.so" attributes={{ target: "_blank" }}>
+					Lang UI
 				</Link>
 			</Example.Item>
 			<Example.Item title="variant: plain">
@@ -84,11 +84,11 @@ export const icon = {
 
 export const href: StoryObj = {
 	name: "href",
-	render: () => <Link href="https://reshaped.so">Trigger</Link>,
+	render: () => <Link href="https://lang-ui.so">Trigger</Link>,
 	play: async ({ canvas }) => {
 		const el = canvas.getByRole("link");
 
-		expect(el).toHaveAttribute("href", "https://reshaped.so");
+		expect(el).toHaveAttribute("href", "https://lang-ui.so");
 	},
 };
 
@@ -121,7 +121,7 @@ export const hrefOnClick: StoryObj<{ handleClick: ReturnType<typeof fn> }> = {
 				e.preventDefault();
 				args.handleClick(e);
 			}}
-			href="https://reshaped.so"
+			href="https://lang-ui.so"
 		>
 			Trigger
 		</Link>
@@ -132,7 +132,7 @@ export const hrefOnClick: StoryObj<{ handleClick: ReturnType<typeof fn> }> = {
 
 		await userEvent.click(el);
 
-		expect(el).toHaveAttribute("href", "https://reshaped.so");
+		expect(el).toHaveAttribute("href", "https://lang-ui.so");
 		expect(handleClick).toHaveBeenCalledTimes(1);
 		expect(handleClick).toHaveBeenCalledWith(expect.objectContaining({ target: el }));
 	},

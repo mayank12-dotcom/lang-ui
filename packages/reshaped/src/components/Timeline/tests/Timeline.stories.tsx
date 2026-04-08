@@ -9,7 +9,7 @@ export default {
 	component: Timeline,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/timeline",
+			url: "https://lang-ui.so/docs/components/timeline",
 		},
 	},
 };

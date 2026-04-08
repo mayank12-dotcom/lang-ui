@@ -4,7 +4,7 @@ import root from "react-shadow";
 import Autocomplete, { type AutocompleteProps } from "@/components/Autocomplete";
 import Button from "@/components/Button";
 import DropdownMenu from "@/components/DropdownMenu";
-import Reshaped from "@/components/Reshaped";
+import Lang UI from "@/components/Lang UI";
 import Select from "@/components/Select";
 import Tooltip from "@/components/Tooltip";
 import View from "@/components/View";
@@ -62,7 +62,7 @@ const ShadowDiv = forwardRef<HTMLDivElement, React.PropsWithChildren>((props, re
 	}, []);
 
 	return (
-		<Reshaped theme="slate">
+		<Lang UI theme="slate">
 			<root.div className="quote" ref={shadowRef}>
 				<div ref={ref}>
 					{/* 
@@ -72,7 +72,7 @@ const ShadowDiv = forwardRef<HTMLDivElement, React.PropsWithChildren>((props, re
 					<View padding={4}>{props.children}</View>
 				</div>
 			</root.div>
-		</Reshaped>
+		</Lang UI>
 	);
 });
 

@@ -1,9 +1,9 @@
 {
-	"name": "@reshaped/headless",
+	"name": "@lang-ui/headless",
 	"description": "Headless components and utilities for React",
 	"version": "3.11.0-canary.4",
 	"license": "MIT",
-	"homepage": "https://reshaped.so",
+	"homepage": "https://lang-ui.so",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/reshaped-ui/reshaped.git",
@@ -15,7 +15,7 @@
 	"author": {
 		"name": "Dmitry Belyaev",
 		"email": "blv.dmitry@gmail.com",
-		"url": "https://reshaped.so"
+		"url": "https://lang-ui.so"
 	},
 	"files": [
 		"dist/**/*"
@@ -44,6 +44,6 @@
 		"react-dom": "^18 || ^19"
 	},
 	"dependencies": {
-		"@reshaped/utilities": "workspace:*"
+		"@lang-ui/utilities": "workspace:*"
 	}
 }

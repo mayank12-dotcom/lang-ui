@@ -1,6 +1,6 @@
 import type { IconProps } from "@/components/Icon";
 import type * as G from "@/types/global";
-import type { Attributes, ClassName } from "@reshaped/headless";
+import type { Attributes, ClassName } from "@lang-ui/headless";
 
 export type Props = {
 	/** Image URL */

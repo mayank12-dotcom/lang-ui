@@ -1,4 +1,4 @@
-import { useToggle } from "@reshaped/headless";
+import { useToggle } from "@lang-ui/headless";
 import React from "react";
 
 import Alert from "@/components/Alert";
@@ -322,7 +322,7 @@ const ExampleLogin = () => {
 
 				<FormControl>
 					<FormControl.Label>Email</FormControl.Label>
-					<TextField name="email" placeholder="hello@reshaped.so" />
+					<TextField name="email" placeholder="hello@lang-ui.so" />
 				</FormControl>
 				<FormControl>
 					<View direction="row" align="baseline">

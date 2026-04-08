@@ -1,6 +1,6 @@
 "use client";
 
-import { classNames, useHotkeys, useRTL } from "@reshaped/headless";
+import { classNames, useHotkeys, useRTL } from "@lang-ui/headless";
 import React from "react";
 
 import { useFlyoutContext } from "@/components/Flyout";

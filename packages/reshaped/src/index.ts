@@ -143,8 +143,8 @@ export type { TooltipProps } from "@/components/Tooltip";
 /**
  * Utility components
  */
-export { default as Reshaped } from "@/components/Reshaped";
-export type { ReshapedProps } from "@/components/Reshaped";
+export { default as Lang UI } from "@/components/Lang UI";
+export type { Lang UIProps } from "@/components/Lang UI";
 
 export { default as Accordion } from "@/components/Accordion";
 export type { AccordionProps } from "@/components/Accordion";
@@ -215,7 +215,7 @@ export {
 	useScrollLock,
 	useToggle,
 	useIsDismissible,
-} from "@reshaped/headless";
+} from "@lang-ui/headless";
 
 export { useFormControl } from "@/components/FormControl";
 export { default as Theme, useTheme, type ThemeProps } from "@/components/Theme";
@@ -225,13 +225,13 @@ export { default as useResponsiveClientValue } from "@/hooks/useResponsiveClient
  * Utility functions
  */
 export { responsivePropDependency } from "@/utilities/props";
-export { TrapFocus, classNames } from "@reshaped/headless";
+export { TrapFocus, classNames } from "@lang-ui/headless";
 
 /**
  * Types
  */
-export type { Attributes } from "@reshaped/headless";
-export type { ReshapedConfig } from "@/types/config";
+export type { Attributes } from "@lang-ui/headless";
+export type { Lang UIConfig } from "@/types/config";
 export type { Responsive, ColorMode } from "@/types/global";
 
 /**

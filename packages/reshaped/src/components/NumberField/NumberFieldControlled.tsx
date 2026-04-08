@@ -1,6 +1,6 @@
 "use client";
 
-import { useHotkeys, useHandlerRef, useElementId } from "@reshaped/headless";
+import { useHotkeys, useHandlerRef, useElementId } from "@lang-ui/headless";
 import React from "react";
 
 import Actionable from "@/components/Actionable";

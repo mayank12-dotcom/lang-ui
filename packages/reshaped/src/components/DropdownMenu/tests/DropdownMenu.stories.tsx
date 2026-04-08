@@ -15,7 +15,7 @@ export default {
 	component: DropdownMenu,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/dropdown-menu",
+			url: "https://lang-ui.so/docs/components/dropdown-menu",
 		},
 	},
 };
@@ -307,7 +307,7 @@ const ThemeSwitching = () => {
 
 const ThemeMultiple = () => {
 	return (
-		<Theme name={["reshaped", "figma"]}>
+		<Theme name={["lang-ui", "figma"]}>
 			<DropdownMenu>
 				<DropdownMenu.Trigger>
 					{(attributes) => <Button attributes={attributes}>Open</Button>}

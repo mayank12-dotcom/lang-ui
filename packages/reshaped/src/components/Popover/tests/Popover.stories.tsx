@@ -16,7 +16,7 @@ export default {
 	component: Popover,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/popover",
+			url: "https://lang-ui.so/docs/components/popover",
 		},
 	},
 };

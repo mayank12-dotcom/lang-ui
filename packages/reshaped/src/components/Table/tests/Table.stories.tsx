@@ -13,7 +13,7 @@ export default {
 	component: Table,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/table",
+			url: "https://lang-ui.so/docs/components/table",
 		},
 	},
 };

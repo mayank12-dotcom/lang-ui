@@ -1,4 +1,4 @@
-import { useToggle } from "@reshaped/headless";
+import { useToggle } from "@lang-ui/headless";
 import { StoryObj } from "@storybook/react-vite";
 import React from "react";
 import { expect, fireEvent, fn, Mock } from "storybook/test";
@@ -13,7 +13,7 @@ export default {
 	component: Slider,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/slider",
+			url: "https://lang-ui.so/docs/components/slider",
 		},
 	},
 };

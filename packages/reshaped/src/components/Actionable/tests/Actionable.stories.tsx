@@ -10,7 +10,7 @@ export default {
 	component: Actionable,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/utilities/actionable",
+			url: "https://lang-ui.so/docs/utilities/actionable",
 		},
 	},
 };
@@ -33,13 +33,13 @@ export const base: StoryObj<{
 				<Actionable onClick={args.handleClick}>Button</Actionable>
 			</Example.Item>
 			<Example.Item title="href">
-				<Actionable href="https://reshaped.so" attributes={{ target: "_blank" }}>
+				<Actionable href="https://lang-ui.so" attributes={{ target: "_blank" }}>
 					Link
 				</Actionable>
 			</Example.Item>
 
 			<Example.Item title="attributes.href">
-				<Actionable attributes={{ href: "https://reshaped.so" }}>Link with attributes</Actionable>
+				<Actionable attributes={{ href: "https://lang-ui.so" }}>Link with attributes</Actionable>
 			</Example.Item>
 
 			<Example.Item title="href, onClick">
@@ -48,7 +48,7 @@ export const base: StoryObj<{
 						e.preventDefault();
 						args.handleSecondClick(e);
 					}}
-					href="https://reshaped.so"
+					href="https://lang-ui.so"
 				>
 					Link with onClick
 				</Actionable>
@@ -67,7 +67,7 @@ export const base: StoryObj<{
 
 		expect(link).toBeInTheDocument();
 		expect(link).toHaveRole("link");
-		expect(link).toHaveAttribute("href", "https://reshaped.so");
+		expect(link).toHaveAttribute("href", "https://lang-ui.so");
 
 		await userEvent.click(button);
 
@@ -79,13 +79,13 @@ export const base: StoryObj<{
 
 		expect(linkWithAttributes).toBeInTheDocument();
 		expect(linkWithAttributes).toHaveRole("link");
-		expect(linkWithAttributes).toHaveAttribute("href", "https://reshaped.so");
+		expect(linkWithAttributes).toHaveAttribute("href", "https://lang-ui.so");
 
 		await userEvent.click(linkWithOnClick);
 
 		expect(linkWithOnClick).toBeInTheDocument();
 		expect(linkWithOnClick).toHaveRole("link");
-		expect(linkWithOnClick).toHaveAttribute("href", "https://reshaped.so");
+		expect(linkWithOnClick).toHaveAttribute("href", "https://lang-ui.so");
 
 		expect(args.handleSecondClick).toHaveBeenCalledTimes(1);
 		expect(args.handleSecondClick).toHaveBeenCalledWith(
@@ -104,7 +104,7 @@ export const disabled: StoryObj = {
 				</Actionable>
 			</Example.Item>
 			<Example.Item title="disabled, link">
-				<Actionable disabled href="https://reshaped.so">
+				<Actionable disabled href="https://lang-ui.so">
 					Link
 				</Actionable>
 			</Example.Item>
@@ -125,7 +125,7 @@ export const fullWidth: StoryObj = {
 	render: () => (
 		<Example>
 			<Example.Item title="fullWidth">
-				<Actionable fullWidth href="https://reshaped.so">
+				<Actionable fullWidth href="https://lang-ui.so">
 					Actionable
 				</Actionable>
 			</Example.Item>

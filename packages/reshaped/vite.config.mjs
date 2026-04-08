@@ -18,7 +18,7 @@ export default defineConfig({
 		emptyOutDir: false,
 		lib: {
 			entry: resolve(__dirname, "src/index.ts"),
-			name: "Reshaped",
+			name: "Lang UI",
 			fileName: "bundle",
 			formats: ["umd"],
 		},

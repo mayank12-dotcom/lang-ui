@@ -11,7 +11,7 @@ export default {
 	component: Accordion,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/utilities/accordion",
+			url: "https://lang-ui.so/docs/utilities/accordion",
 		},
 	},
 };

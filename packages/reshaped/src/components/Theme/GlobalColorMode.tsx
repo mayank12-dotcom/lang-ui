@@ -1,6 +1,6 @@
 "use client";
 
-import { useIsomorphicLayoutEffect } from "@reshaped/headless";
+import { useIsomorphicLayoutEffect } from "@lang-ui/headless";
 import React from "react";
 
 import { enableTransitions, disableTransitions, onNextFrame } from "@/utilities/animation";

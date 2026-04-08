@@ -11,7 +11,7 @@ export default {
 	component: Scrim,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/scrim",
+			url: "https://lang-ui.so/docs/components/scrim",
 		},
 	},
 };

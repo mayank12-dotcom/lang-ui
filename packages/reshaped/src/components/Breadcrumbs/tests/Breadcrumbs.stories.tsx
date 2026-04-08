@@ -11,7 +11,7 @@ export default {
 	component: Breadcrumbs,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/breadcrumbs",
+			url: "https://lang-ui.so/docs/components/breadcrumbs",
 		},
 	},
 };
@@ -209,13 +209,13 @@ export const href: StoryObj = {
 	name: "item, href",
 	render: () => (
 		<Breadcrumbs>
-			<Breadcrumbs.Item href="https://reshaped.so">Trigger</Breadcrumbs.Item>
+			<Breadcrumbs.Item href="https://lang-ui.so">Trigger</Breadcrumbs.Item>
 		</Breadcrumbs>
 	),
 	play: async ({ canvas }) => {
 		const triggers = canvas.getAllByRole("link");
 
-		expect(triggers[0]).toHaveAttribute("href", "https://reshaped.so");
+		expect(triggers[0]).toHaveAttribute("href", "https://lang-ui.so");
 	},
 };
 

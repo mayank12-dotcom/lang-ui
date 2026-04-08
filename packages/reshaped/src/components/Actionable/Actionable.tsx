@@ -3,7 +3,7 @@
 import {
 	Actionable as UnstyledActionable,
 	type ActionableRef as UnstyledActionableRef,
-} from "@reshaped/headless";
+} from "@lang-ui/headless";
 import { forwardRef } from "react";
 
 import s from "./Actionable.module.css";

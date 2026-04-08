@@ -1,6 +1,6 @@
 "use client";
 
-import { useToggle } from "@reshaped/headless";
+import { useToggle } from "@lang-ui/headless";
 
 import ToggleButtonControlled from "./ToggleButtonControlled";
 

@@ -14,7 +14,7 @@ export default {
 	component: ProgressIndicator,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/progress-indicator",
+			url: "https://lang-ui.so/docs/components/progress-indicator",
 		},
 	},
 };

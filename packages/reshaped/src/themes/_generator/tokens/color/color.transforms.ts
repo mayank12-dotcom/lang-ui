@@ -17,7 +17,7 @@ const transformTokenForMode = (
 
 	if (hex) return hex;
 
-	throw new Error(`[Reshaped] ${JSON.stringify(args)} is missing a color value`);
+	throw new Error(`[Lang UI] ${JSON.stringify(args)} is missing a color value`);
 };
 
 const transformToken: Transformer<T.Token> = (name, token, { themeOptions }) => {

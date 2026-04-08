@@ -2,9 +2,9 @@ import figmaDefinition from "@/themes/_generator/definitions/figma";
 import reshapedDefinition from "@/themes/_generator/definitions/reshaped";
 import slateDefinition from "@/themes/_generator/definitions/slate";
 
-import type { ReshapedConfig } from "@/types/config";
+import type { Lang UIConfig } from "@/types/config";
 
-const config: ReshapedConfig = {
+const config: Lang UIConfig = {
 	themes: {
 		reshaped: reshapedDefinition,
 		figma: figmaDefinition,

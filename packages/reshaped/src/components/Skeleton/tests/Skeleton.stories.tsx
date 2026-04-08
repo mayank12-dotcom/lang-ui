@@ -9,7 +9,7 @@ export default {
 	component: Skeleton,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/skeleton",
+			url: "https://lang-ui.so/docs/components/skeleton",
 		},
 	},
 };

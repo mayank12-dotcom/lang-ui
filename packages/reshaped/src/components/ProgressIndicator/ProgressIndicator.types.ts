@@ -1,4 +1,4 @@
-import type { Attributes, ClassName } from "@reshaped/headless";
+import type { Attributes, ClassName } from "@lang-ui/headless";
 
 export type Props = {
 	/** Total amount of progress indicator dots */

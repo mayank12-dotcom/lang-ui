@@ -1,7 +1,7 @@
 import type { GlobalColorModeProps, ThemeProps } from "@/components/Theme";
 import type { ToastProviderProps } from "@/components/Toast";
 import type * as G from "@/types/global";
-import type { Attributes, ClassName } from "@reshaped/headless";
+import type { Attributes, ClassName } from "@lang-ui/headless";
 import type React from "react";
 
 export type Props = {
@@ -21,7 +21,7 @@ export type Props = {
 	defaultViewport?: G.Viewport;
 	/** Global options for the ToastProvider */
 	toastOptions?: ToastProviderProps["options"];
-	/** Enable scoped mode for applications not using Reshaped provider at the application root */
+	/** Enable scoped mode for applications not using Lang UI provider at the application root */
 	scoped?: boolean;
 	/** Additional classname for the root element */
 	className?: ClassName;

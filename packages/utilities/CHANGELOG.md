@@ -1,4 +1,4 @@
-# @reshaped/headless
+# @lang-ui/headless
 
 ## 3.11.0-canary.4
 
@@ -18,15 +18,15 @@
 
 ### Minor Changes
 
-- [#572](https://github.com/reshaped-ui/reshaped/pull/572) [`e69c177`](https://github.com/reshaped-ui/reshaped/commit/e69c177c2bd2478670aed9b13d0ecef86f5ee740) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Extracted Reshaped provider and all of its dependencies into @reshaped/headless
+- [#572](https://github.com/reshaped-ui/reshaped/pull/572) [`e69c177`](https://github.com/reshaped-ui/reshaped/commit/e69c177c2bd2478670aed9b13d0ecef86f5ee740) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Extracted Lang UI provider and all of its dependencies into @lang-ui/headless
 
-- [#564](https://github.com/reshaped-ui/reshaped/pull/564) [`b5ea590`](https://github.com/reshaped-ui/reshaped/commit/b5ea590927b1f70ffa4e5522531c3fe2fc0ae40a) Thanks [@blvdmitry](https://github.com/blvdmitry)! - TrapFocus: Moved to the @reshaped/utilities package and re-exported from reshaped
+- [#564](https://github.com/reshaped-ui/reshaped/pull/564) [`b5ea590`](https://github.com/reshaped-ui/reshaped/commit/b5ea590927b1f70ffa4e5522531c3fe2fc0ae40a) Thanks [@blvdmitry](https://github.com/blvdmitry)! - TrapFocus: Moved to the @lang-ui/utilities package and re-exported from reshaped
 
 ### Patch Changes
 
 - [`ed23b45`](https://github.com/reshaped-ui/reshaped/commit/ed23b4575f401954ff137d9d510f384c5fa6df1b) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Flyout: Simplified position calculations
 
-- [#565](https://github.com/reshaped-ui/reshaped/pull/565) [`f84659d`](https://github.com/reshaped-ui/reshaped/commit/f84659d7b75441dcc61a4908c5d09109a83117dd) Thanks [@blvdmitry](https://github.com/blvdmitry)! - classNames: moved to @reshaped/utilities and re-exported from reshaped
+- [#565](https://github.com/reshaped-ui/reshaped/pull/565) [`f84659d`](https://github.com/reshaped-ui/reshaped/commit/f84659d7b75441dcc61a4908c5d09109a83117dd) Thanks [@blvdmitry](https://github.com/blvdmitry)! - classNames: moved to @lang-ui/utilities and re-exported from reshaped
 
 - [`5d83fff`](https://github.com/reshaped-ui/reshaped/commit/5d83fff1dc4b964fcf867aea062434d52d395a22) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Flyout: improved positioning inside containers and other edge cases
 
@@ -42,7 +42,7 @@
 
 - [`f5a4d53`](https://github.com/reshaped-ui/reshaped/commit/f5a4d53d0082c0f728a95f1bb49d996c12ee3d27) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Flyout: New utility
 
-- [#570](https://github.com/reshaped-ui/reshaped/pull/570) [`a23c79d`](https://github.com/reshaped-ui/reshaped/commit/a23c79d4508f6d16a44e0d2372385b14c9d26691) Thanks [@blvdmitry](https://github.com/blvdmitry)! - lockScroll: moved to @reshaped/utilities and re-exported from reshaped
+- [#570](https://github.com/reshaped-ui/reshaped/pull/570) [`a23c79d`](https://github.com/reshaped-ui/reshaped/commit/a23c79d4508f6d16a44e0d2372385b14c9d26691) Thanks [@blvdmitry](https://github.com/blvdmitry)! - lockScroll: moved to @lang-ui/utilities and re-exported from reshaped
 
 ## 3.10.0-canary.16
 
@@ -70,7 +70,7 @@
 
 ### Minor Changes
 
-- [#572](https://github.com/reshaped-ui/reshaped/pull/572) [`e69c177`](https://github.com/reshaped-ui/reshaped/commit/e69c177c2bd2478670aed9b13d0ecef86f5ee740) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Extracted Reshaped provider and all of its dependencies into @reshaped/headless
+- [#572](https://github.com/reshaped-ui/reshaped/pull/572) [`e69c177`](https://github.com/reshaped-ui/reshaped/commit/e69c177c2bd2478670aed9b13d0ecef86f5ee740) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Extracted Lang UI provider and all of its dependencies into @lang-ui/headless
 
 ## 3.10.0-canary.6
 
@@ -88,13 +88,13 @@
 
 ### Minor Changes
 
-- [#564](https://github.com/reshaped-ui/reshaped/pull/564) [`b5ea590`](https://github.com/reshaped-ui/reshaped/commit/b5ea590927b1f70ffa4e5522531c3fe2fc0ae40a) Thanks [@blvdmitry](https://github.com/blvdmitry)! - TrapFocus: Moved to the @reshaped/utilities package and re-exported from reshaped
+- [#564](https://github.com/reshaped-ui/reshaped/pull/564) [`b5ea590`](https://github.com/reshaped-ui/reshaped/commit/b5ea590927b1f70ffa4e5522531c3fe2fc0ae40a) Thanks [@blvdmitry](https://github.com/blvdmitry)! - TrapFocus: Moved to the @lang-ui/utilities package and re-exported from reshaped
 
 ### Patch Changes
 
-- [#565](https://github.com/reshaped-ui/reshaped/pull/565) [`f84659d`](https://github.com/reshaped-ui/reshaped/commit/f84659d7b75441dcc61a4908c5d09109a83117dd) Thanks [@blvdmitry](https://github.com/blvdmitry)! - classNames: moved to @reshaped/utilities and re-exported from reshaped
+- [#565](https://github.com/reshaped-ui/reshaped/pull/565) [`f84659d`](https://github.com/reshaped-ui/reshaped/commit/f84659d7b75441dcc61a4908c5d09109a83117dd) Thanks [@blvdmitry](https://github.com/blvdmitry)! - classNames: moved to @lang-ui/utilities and re-exported from reshaped
 
-- [#570](https://github.com/reshaped-ui/reshaped/pull/570) [`a23c79d`](https://github.com/reshaped-ui/reshaped/commit/a23c79d4508f6d16a44e0d2372385b14c9d26691) Thanks [@blvdmitry](https://github.com/blvdmitry)! - lockScroll: moved to @reshaped/utilities and re-exported from reshaped
+- [#570](https://github.com/reshaped-ui/reshaped/pull/570) [`a23c79d`](https://github.com/reshaped-ui/reshaped/commit/a23c79d4508f6d16a44e0d2372385b14c9d26691) Thanks [@blvdmitry](https://github.com/blvdmitry)! - lockScroll: moved to @lang-ui/utilities and re-exported from reshaped
 
 ## 3.9.1-canary.3
 

@@ -1071,12 +1071,12 @@ export const testScopedTheming = {
 	render: () => (
 		<View gap={3} align="start">
 			<Button color="primary">Slate button</Button>
-			<Theme name="reshaped">
+			<Theme name="lang-ui">
 				<Flyout triggerType="click" active position="bottom-start">
 					<Flyout.Trigger>
 						{(attributes) => (
 							<Button color="primary" attributes={attributes}>
-								Reshaped button
+								Lang UI button
 							</Button>
 						)}
 					</Flyout.Trigger>
@@ -1084,7 +1084,7 @@ export const testScopedTheming = {
 						<Content>
 							<View gap={1}>
 								<View.Item>Portal content, rendered in body</View.Item>
-								<Button color="primary">Reshaped button</Button>
+								<Button color="primary">Lang UI button</Button>
 							</View>
 						</Content>
 					</Flyout.Content>

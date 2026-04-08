@@ -1,7 +1,7 @@
 {
 	"name": "@reshaped/root",
 	"private": true,
-	"description": "Reshaped monorepo root",
+	"description": "Lang UI monorepo root",
 	"license": "MIT",
 	"repository": {
 		"type": "git",

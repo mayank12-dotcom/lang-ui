@@ -1,6 +1,6 @@
 "use client";
 
-import { classNames, useElementId } from "@reshaped/headless";
+import { classNames, useElementId } from "@lang-ui/headless";
 import React from "react";
 
 import { useFormControl } from "@/components/FormControl";

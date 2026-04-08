@@ -1,5 +1,5 @@
 // Utilities
-export { classNames, TrapFocus } from "@reshaped/utilities";
+export { classNames, TrapFocus } from "@lang-ui/utilities";
 
 // Components
 export {
@@ -7,7 +7,7 @@ export {
 	type ActionableRef,
 	type ActionableProps,
 } from "./components/Actionable";
-export { default as Reshaped, type ReshapedProps } from "./components/Reshaped";
+export { default as Lang UI, type Lang UIProps } from "./components/Lang UI";
 
 // Hooks
 export { default as useHandlerRef } from "./hooks/useHandlerRef";
@@ -23,5 +23,5 @@ export { default as useElementId } from "./hooks/useElementId";
 export { default as useIsDismissible } from "./hooks/useIsDismissible";
 
 // Types
-export type { ClassName } from "@reshaped/utilities";
+export type { ClassName } from "@lang-ui/utilities";
 export type { Attributes, CSSVariable, StyleAttribute } from "@/types/global";

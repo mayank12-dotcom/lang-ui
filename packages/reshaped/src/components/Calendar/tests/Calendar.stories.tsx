@@ -10,7 +10,7 @@ export default {
 	component: Calendar,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/calendar",
+			url: "https://lang-ui.so/docs/components/calendar",
 		},
 	},
 };

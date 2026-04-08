@@ -1,4 +1,4 @@
-import { useToggle } from "@reshaped/headless";
+import { useToggle } from "@lang-ui/headless";
 import { StoryObj } from "@storybook/react-vite";
 import React from "react";
 import { fn, expect, Mock, within, waitFor, userEvent, fireEvent } from "storybook/test";
@@ -14,7 +14,7 @@ export default {
 	component: Autocomplete,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/autocomplete",
+			url: "https://lang-ui.so/docs/components/autocomplete",
 		},
 	},
 };

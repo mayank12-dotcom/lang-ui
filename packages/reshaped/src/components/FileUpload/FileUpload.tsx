@@ -1,6 +1,6 @@
 "use client";
 
-import { classNames, useToggle } from "@reshaped/headless";
+import { classNames, useToggle } from "@lang-ui/headless";
 import React from "react";
 
 import HiddenVisually from "@/components/HiddenVisually";

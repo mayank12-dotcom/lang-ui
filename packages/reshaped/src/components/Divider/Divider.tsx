@@ -1,4 +1,4 @@
-import { classNames, type StyleAttribute } from "@reshaped/headless";
+import { classNames, type StyleAttribute } from "@lang-ui/headless";
 
 import Text from "@/components/Text";
 import { responsiveClassNames } from "@/utilities/props";

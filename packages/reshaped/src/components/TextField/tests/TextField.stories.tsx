@@ -17,7 +17,7 @@ export default {
 	component: TextField,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/text-field",
+			url: "https://lang-ui.so/docs/components/text-field",
 		},
 	},
 };
@@ -94,17 +94,17 @@ export const attachments = {
 	render: () => (
 		<Example>
 			<Example.Item title="icon">
-				<TextField name="Name" placeholder="Enter your name" value="Reshaped" icon={IconZap} />
+				<TextField name="Name" placeholder="Enter your name" value="Lang UI" icon={IconZap} />
 			</Example.Item>
 			<Example.Item title="endIcon">
-				<TextField name="Name" placeholder="Enter your name" value="Reshaped" endIcon={IconZap} />
+				<TextField name="Name" placeholder="Enter your name" value="Lang UI" endIcon={IconZap} />
 			</Example.Item>
 
 			<Example.Item title={["startSlot", "vertical and horizontal padding aligned"]}>
 				<TextField
 					name="Name"
 					placeholder="Enter your name"
-					value="Reshaped"
+					value="Lang UI"
 					startSlot={<Placeholder h={20} />}
 				/>
 			</Example.Item>
@@ -113,7 +113,7 @@ export const attachments = {
 				<TextField
 					name="Name"
 					placeholder="Enter your name"
-					value="Reshaped"
+					value="Lang UI"
 					endSlot={
 						<Button
 							icon={IconZap}
@@ -129,7 +129,7 @@ export const attachments = {
 				<TextField
 					name="Name"
 					placeholder="Enter your name"
-					value="Reshaped"
+					value="Lang UI"
 					startSlotPadding={4}
 					endSlotPadding={2}
 					startSlot={<Placeholder h={20} />}
@@ -141,7 +141,7 @@ export const attachments = {
 				<TextField
 					name="Name"
 					placeholder="Enter your name"
-					value="Reshaped"
+					value="Lang UI"
 					endIcon={IconZap}
 					icon={IconZap}
 					prefix="Estimated value"
@@ -155,7 +155,7 @@ export const attachments = {
 				<TextField
 					name="Name"
 					placeholder="Enter your name"
-					value="Reshaped"
+					value="Lang UI"
 					startSlot={[...Array(10).keys()].map((i) => (
 						<Badge size="small" key={i}>
 							Item {i + 1}

@@ -8,12 +8,12 @@ import {
 	useOnClickOutside,
 	useIsDismissible,
 	useElementId,
-} from "@reshaped/headless";
+} from "@lang-ui/headless";
 import {
 	checkKeyboardMode,
 	type FocusableElement,
 	type Coordinates,
-} from "@reshaped/headless/internal";
+} from "@lang-ui/headless/internal";
 import React from "react";
 
 import usePrevious from "@/hooks/_private/usePrevious";

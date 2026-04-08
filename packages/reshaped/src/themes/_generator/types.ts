@@ -1,4 +1,4 @@
-import type { ReshapedConfig } from "@/types/config";
+import type { Lang UIConfig } from "@/types/config";
 
 export type PartialDeep<T> = {
 	[K in keyof T]?: {
@@ -7,7 +7,7 @@ export type PartialDeep<T> = {
 };
 
 export type PublicOptions = {
-	themeOptions?: ReshapedConfig["themeOptions"];
+	themeOptions?: Lang UIConfig["themeOptions"];
 };
 
 export type PrivateOptions = PublicOptions & { isFragment?: boolean };

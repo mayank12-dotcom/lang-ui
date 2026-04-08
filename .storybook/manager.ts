@@ -5,8 +5,8 @@ addons.setConfig({
 	panelPosition: "right",
 	theme: create({
 		base: "dark",
-		brandTitle: "Reshaped",
-		brandUrl: "https://reshaped.so",
+		brandTitle: "Lang UI",
+		brandUrl: "https://lang-ui.so",
 		brandImage: "./logo.svg",
 		brandTarget: "_self",
 	}),

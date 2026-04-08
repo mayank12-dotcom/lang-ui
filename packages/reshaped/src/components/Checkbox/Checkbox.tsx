@@ -1,6 +1,6 @@
 "use client";
 
-import { classNames, useIsomorphicLayoutEffect } from "@reshaped/headless";
+import { classNames, useIsomorphicLayoutEffect } from "@lang-ui/headless";
 import React from "react";
 
 import { useCheckboxGroup } from "@/components/CheckboxGroup";

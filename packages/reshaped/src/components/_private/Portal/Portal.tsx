@@ -1,6 +1,6 @@
 "use client";
 
-import { useIsomorphicLayoutEffect, useToggle } from "@reshaped/headless";
+import { useIsomorphicLayoutEffect, useToggle } from "@lang-ui/headless";
 import React from "react";
 import ReactDOM from "react-dom";
 

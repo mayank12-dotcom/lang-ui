@@ -14,7 +14,7 @@ export default {
 	component: Theme,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/utilities/theme",
+			url: "https://lang-ui.so/docs/utilities/theme",
 		},
 		chromatic: { disableSnapshot: true },
 	},
@@ -25,7 +25,7 @@ export const scoped: StoryObj = {
 	render: () => (
 		<Example>
 			<Example.Item title="scoped, single">
-				<Theme name="reshaped">
+				<Theme name="lang-ui">
 					<Card attributes={{ "data-testid": "test-id" }}>
 						<Button color="primary">Action</Button>
 					</Card>
@@ -33,7 +33,7 @@ export const scoped: StoryObj = {
 			</Example.Item>
 
 			<Example.Item title="scoped, multiple">
-				<Theme name={["reshaped", "figma"]}>
+				<Theme name={["lang-ui", "figma"]}>
 					<Card attributes={{ "data-testid": "test-id-multi" }}>
 						<View direction="row" gap={4}>
 							<Button color="primary">Action</Button>
@@ -54,7 +54,7 @@ export const scoped: StoryObj = {
 		const root = canvas.getByTestId("test-id").parentNode;
 		const rootMultiple = canvas.getByTestId("test-id-multi").parentNode;
 
-		expect(root).toHaveAttribute("data-rs-theme", "reshaped");
+		expect(root).toHaveAttribute("data-rs-theme", "lang-ui");
 		expect(root).toHaveAttribute("data-rs-color-mode", "dark");
 
 		expect(rootMultiple).toHaveAttribute("data-rs-theme", " reshaped figma ");
@@ -65,14 +65,14 @@ export const scoped: StoryObj = {
 export const light: StoryObj = {
 	name: "light",
 	render: () => (
-		<Theme name="reshaped" colorMode="light">
+		<Theme name="lang-ui" colorMode="light">
 			<Card attributes={{ "data-testid": "test-id" }}>Content</Card>
 		</Theme>
 	),
 	play: ({ canvas }) => {
 		const root = canvas.getByTestId("test-id").parentNode;
 
-		expect(root).toHaveAttribute("data-rs-theme", "reshaped");
+		expect(root).toHaveAttribute("data-rs-theme", "lang-ui");
 		expect(root).toHaveAttribute("data-rs-color-mode", "light");
 	},
 };
@@ -80,14 +80,14 @@ export const light: StoryObj = {
 export const dark: StoryObj = {
 	name: "dark",
 	render: () => (
-		<Theme name="reshaped" colorMode="dark">
+		<Theme name="lang-ui" colorMode="dark">
 			<Card attributes={{ "data-testid": "test-id" }}>Content</Card>
 		</Theme>
 	),
 	play: ({ canvas }) => {
 		const root = canvas.getByTestId("test-id").parentNode;
 
-		expect(root).toHaveAttribute("data-rs-theme", "reshaped");
+		expect(root).toHaveAttribute("data-rs-theme", "lang-ui");
 		expect(root).toHaveAttribute("data-rs-color-mode", "dark");
 	},
 };
@@ -95,14 +95,14 @@ export const dark: StoryObj = {
 export const inherited: StoryObj = {
 	name: "inherited",
 	render: () => (
-		<Theme name="reshaped">
+		<Theme name="lang-ui">
 			<Card attributes={{ "data-testid": "test-id" }}>Content</Card>
 		</Theme>
 	),
 	play: ({ canvas }) => {
 		const root = canvas.getByTestId("test-id").parentNode;
 
-		expect(root).toHaveAttribute("data-rs-theme", "reshaped");
+		expect(root).toHaveAttribute("data-rs-theme", "lang-ui");
 
 		// Our storybook setup uses dark by default
 		expect(root).toHaveAttribute("data-rs-color-mode", "dark");
@@ -112,14 +112,14 @@ export const inherited: StoryObj = {
 export const inverted: StoryObj = {
 	name: "inverted",
 	render: () => (
-		<Theme name="reshaped" colorMode="inverted">
+		<Theme name="lang-ui" colorMode="inverted">
 			<Card attributes={{ "data-testid": "test-id" }}>Content</Card>
 		</Theme>
 	),
 	play: ({ canvas }) => {
 		const root = canvas.getByTestId("test-id").parentNode;
 
-		expect(root).toHaveAttribute("data-rs-theme", "reshaped");
+		expect(root).toHaveAttribute("data-rs-theme", "lang-ui");
 		expect(root).toHaveAttribute("data-rs-color-mode", "light");
 	},
 };
@@ -139,7 +139,7 @@ export const controlled: StoryObj = {
 
 		return (
 			<div data-testid="root">
-				<Theme name="reshaped">
+				<Theme name="lang-ui">
 					<Internal />
 				</Theme>
 			</div>
@@ -149,12 +149,12 @@ export const controlled: StoryObj = {
 		const root = canvas.getByTestId("root").firstChild;
 		const trigger = canvas.getAllByRole("button")[0];
 
-		expect(root).toHaveAttribute("data-rs-theme", "reshaped");
+		expect(root).toHaveAttribute("data-rs-theme", "lang-ui");
 		expect(root).toHaveAttribute("data-rs-color-mode", "dark");
 
 		await userEvent.click(trigger);
 
-		expect(root).toHaveAttribute("data-rs-theme", "reshaped");
+		expect(root).toHaveAttribute("data-rs-theme", "lang-ui");
 		expect(root).toHaveAttribute("data-rs-color-mode", "dark");
 	},
 };
@@ -174,7 +174,7 @@ export const uncontrolled: StoryObj = {
 
 		return (
 			<div data-testid="root">
-				<Theme defaultName="reshaped">
+				<Theme defaultName="lang-ui">
 					<Internal />
 				</Theme>
 			</div>
@@ -184,7 +184,7 @@ export const uncontrolled: StoryObj = {
 		const root = canvas.getByTestId("root").firstChild;
 		const trigger = canvas.getAllByRole("button")[0];
 
-		expect(root).toHaveAttribute("data-rs-theme", "reshaped");
+		expect(root).toHaveAttribute("data-rs-theme", "lang-ui");
 		expect(root).toHaveAttribute("data-rs-color-mode", "dark");
 
 		await userEvent.click(trigger);

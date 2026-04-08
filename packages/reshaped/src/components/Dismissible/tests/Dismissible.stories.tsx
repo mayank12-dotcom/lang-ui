@@ -11,7 +11,7 @@ export default {
 	components: Dismissible,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/utilities/dismissible",
+			url: "https://lang-ui.so/docs/utilities/dismissible",
 		},
 	},
 };

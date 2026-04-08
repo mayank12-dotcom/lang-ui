@@ -1,6 +1,6 @@
 "use client";
 
-import { classNames, keys } from "@reshaped/utilities";
+import { classNames, keys } from "@lang-ui/utilities";
 import React, { forwardRef } from "react";
 
 import type * as T from "./Actionable.types";

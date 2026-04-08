@@ -5,12 +5,12 @@ import { expect, userEvent } from "storybook/test";
 import Button from "@/components/Button";
 import { useTheme } from "@/components/Theme";
 
-import Reshaped from "../Reshaped";
+import Lang UI from "../Lang UI";
 
 import type * as G from "@/types/global";
 
 export default {
-	title: "Utility components/Reshaped",
+	title: "Utility components/Lang UI",
 	parameters: {
 		disableWrapper: true,
 	},
@@ -19,9 +19,9 @@ export default {
 export const rtl = {
 	name: "defaultRTL",
 	render: () => (
-		<Reshaped defaultRTL theme="reshaped" defaultColorMode="dark">
+		<Lang UI defaultRTL theme="lang-ui" defaultColorMode="dark">
 			Hello
-		</Reshaped>
+		</Lang UI>
 	),
 };
 
@@ -31,7 +31,7 @@ export const controlledMode: StoryObj = {
 		const [mode, setMode] = useState<G.ColorMode>("dark");
 
 		return (
-			<Reshaped theme="reshaped" colorMode={mode}>
+			<Lang UI theme="lang-ui" colorMode={mode}>
 				<Button
 					onClick={() => {
 						setMode(mode === "dark" ? "light" : "dark");
@@ -39,7 +39,7 @@ export const controlledMode: StoryObj = {
 				>
 					Toggle color mode
 				</Button>
-			</Reshaped>
+			</Lang UI>
 		);
 	},
 	play: async ({ canvas }) => {
@@ -55,12 +55,12 @@ export const controlledMode: StoryObj = {
 
 export const lightMode = {
 	name: "defaultColorMode=light",
-	render: () => <Reshaped theme="reshaped">Hello</Reshaped>,
+	render: () => <Lang UI theme="lang-ui">Hello</Lang UI>,
 	play: () => {
 		const theme = document.documentElement.getAttribute("data-rs-theme");
 		const colorMode = document.documentElement.getAttribute("data-rs-color-mode");
 
-		expect(theme).toEqual("reshaped");
+		expect(theme).toEqual("lang-ui");
 		expect(colorMode).toEqual("light");
 	},
 };
@@ -68,15 +68,15 @@ export const lightMode = {
 export const darkMode = {
 	name: "defaultColorMode=dark",
 	render: () => (
-		<Reshaped theme="reshaped" defaultColorMode="dark">
+		<Lang UI theme="lang-ui" defaultColorMode="dark">
 			Hello
-		</Reshaped>
+		</Lang UI>
 	),
 	play: () => {
 		const theme = document.documentElement.getAttribute("data-rs-theme");
 		const colorMode = document.documentElement.getAttribute("data-rs-color-mode");
 
-		expect(theme).toEqual("reshaped");
+		expect(theme).toEqual("lang-ui");
 		expect(colorMode).toEqual("dark");
 	},
 };
@@ -84,16 +84,16 @@ export const darkMode = {
 export const scoped = {
 	name: "scoped",
 	render: () => (
-		<Reshaped theme="reshaped" defaultColorMode="dark" scoped>
+		<Lang UI theme="lang-ui" defaultColorMode="dark" scoped>
 			Hello
-		</Reshaped>
+		</Lang UI>
 	),
 	play: async () => {
 		const root = document.querySelector("[data-rs-root]");
 
 		expect(root).toBeInTheDocument();
 		expect(root).not.toBe(document.documentElement);
-		expect(root).toHaveAttribute("data-rs-theme", "reshaped");
+		expect(root).toHaveAttribute("data-rs-theme", "lang-ui");
 		expect(document.documentElement).not.toHaveAttribute("data-rs-theme");
 	},
 };
@@ -107,17 +107,17 @@ const ScopedComponent = () => {
 export const testScoped: StoryObj = {
 	name: "test: scoped switch",
 	render: () => (
-		<Reshaped theme="reshaped">
-			<Reshaped theme="slate" scoped>
+		<Lang UI theme="lang-ui">
+			<Lang UI theme="slate" scoped>
 				<ScopedComponent />
-			</Reshaped>
-		</Reshaped>
+			</Lang UI>
+		</Lang UI>
 	),
 	play: async ({ canvas }) => {
 		const nestedRoot = document.querySelector("[data-rs-root]");
 		const button = canvas.getAllByRole("button")[0];
 
-		expect(document.documentElement).toHaveAttribute("data-rs-theme", "reshaped");
+		expect(document.documentElement).toHaveAttribute("data-rs-theme", "lang-ui");
 		expect(document.documentElement).toHaveAttribute("data-rs-color-mode", "light");
 
 		expect(nestedRoot).toHaveAttribute("data-rs-theme", "slate");
@@ -133,9 +133,9 @@ export const testScoped: StoryObj = {
 export const keyboardMode = {
 	name: "test: keyboard mode",
 	render: () => (
-		<Reshaped theme="reshaped" defaultColorMode="dark">
+		<Lang UI theme="lang-ui" defaultColorMode="dark">
 			Hello
-		</Reshaped>
+		</Lang UI>
 	),
 	play: async () => {
 		const attribute = "data-rs-keyboard";

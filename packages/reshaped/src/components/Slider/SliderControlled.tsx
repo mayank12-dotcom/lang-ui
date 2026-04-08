@@ -1,7 +1,7 @@
 "use client";
 
-import { classNames, useRTL, useHandlerRef, useElementId } from "@reshaped/headless";
-import { disableScroll, enableScroll } from "@reshaped/headless/internal";
+import { classNames, useRTL, useHandlerRef, useElementId } from "@lang-ui/headless";
+import { disableScroll, enableScroll } from "@lang-ui/headless/internal";
 import React from "react";
 
 import { useFormControl } from "@/components/FormControl";

@@ -10,7 +10,7 @@ export default {
 	component: Divider,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/divider",
+			url: "https://lang-ui.so/docs/components/divider",
 		},
 	},
 };

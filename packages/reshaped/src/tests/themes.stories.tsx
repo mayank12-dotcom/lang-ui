@@ -23,7 +23,7 @@ import ThemePlayground from "./ThemesPlayground";
 export default {
 	title: "Internal/Themes",
 	parameters: {
-		iframe: { url: "https://reshaped.so/docs/tokens/theming/runtime-theming" },
+		iframe: { url: "https://lang-ui.so/docs/tokens/theming/runtime-theming" },
 		a11y: {
 			// This option disables all a11y checks on this story
 			disable: true,

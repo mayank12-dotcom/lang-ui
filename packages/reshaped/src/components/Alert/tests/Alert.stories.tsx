@@ -11,7 +11,7 @@ export default {
 	component: Alert,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/alert",
+			url: "https://lang-ui.so/docs/components/alert",
 		},
 	},
 };

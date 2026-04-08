@@ -1,6 +1,6 @@
 import React from "react";
 
-import type { Attributes } from "@reshaped/headless";
+import type { Attributes } from "@lang-ui/headless";
 
 export type ContentProps = {
 	active?: boolean;

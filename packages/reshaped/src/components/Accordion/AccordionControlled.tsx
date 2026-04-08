@@ -1,6 +1,6 @@
 "use client";
 
-import { classNames, useHandlerRef, useElementId } from "@reshaped/headless";
+import { classNames, useHandlerRef, useElementId } from "@lang-ui/headless";
 import React from "react";
 
 import AccordionContext from "./Accordion.context";

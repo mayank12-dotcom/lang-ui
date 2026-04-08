@@ -1,4 +1,4 @@
-import { useHotkeys } from "@reshaped/headless";
+import { useHotkeys } from "@lang-ui/headless";
 import React from "react";
 
 import * as keys from "@/constants/keys";

@@ -1,7 +1,7 @@
 "use client";
 
-import { classNames, useIsomorphicLayoutEffect, useHandlerRef } from "@reshaped/headless";
-import { disableScroll, enableScroll } from "@reshaped/headless/internal";
+import { classNames, useIsomorphicLayoutEffect, useHandlerRef } from "@lang-ui/headless";
+import { disableScroll, enableScroll } from "@lang-ui/headless/internal";
 import React, { forwardRef } from "react";
 
 import { resolveMixin } from "@/styles/mixin";

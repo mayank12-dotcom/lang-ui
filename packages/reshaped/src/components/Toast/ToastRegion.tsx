@@ -1,7 +1,7 @@
 "use client";
 
-import { classNames } from "@reshaped/headless";
-import { focusableSelector } from "@reshaped/headless/internal";
+import { classNames } from "@lang-ui/headless";
+import { focusableSelector } from "@lang-ui/headless/internal";
 import React from "react";
 
 import ToastContext from "./Toast.context";

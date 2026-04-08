@@ -1,6 +1,6 @@
 import type { OverlayProps, OverlayCloseReason } from "@/components/Overlay";
 import type * as G from "@/types/global";
-import type { Attributes, ClassName } from "@reshaped/headless";
+import type { Attributes, ClassName } from "@lang-ui/headless";
 import type React from "react";
 
 export type Context = {

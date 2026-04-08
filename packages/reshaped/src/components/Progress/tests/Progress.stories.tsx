@@ -12,7 +12,7 @@ export default {
 	component: Progress,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/progress",
+			url: "https://lang-ui.so/docs/components/progress",
 		},
 	},
 };

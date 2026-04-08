@@ -9,7 +9,7 @@ export default {
 	component: Text,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/text",
+			url: "https://lang-ui.so/docs/components/text",
 		},
 	},
 };

@@ -13,7 +13,7 @@ export default {
 	component: MenuItem,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/menu-item",
+			url: "https://lang-ui.so/docs/components/menu-item",
 		},
 	},
 };
@@ -164,11 +164,11 @@ export const aligner = {
 
 export const href: StoryObj = {
 	name: "href",
-	render: () => <MenuItem href="https://reshaped.so">Trigger</MenuItem>,
+	render: () => <MenuItem href="https://lang-ui.so">Trigger</MenuItem>,
 	play: async ({ canvas }) => {
 		const el = canvas.getByRole("link");
 
-		expect(el).toHaveAttribute("href", "https://reshaped.so");
+		expect(el).toHaveAttribute("href", "https://lang-ui.so");
 	},
 };
 
@@ -201,7 +201,7 @@ export const hrefOnClick: StoryObj<{ handleClick: ReturnType<typeof fn> }> = {
 				e.preventDefault();
 				args.handleClick(e);
 			}}
-			href="https://reshaped.so"
+			href="https://lang-ui.so"
 		>
 			Trigger
 		</MenuItem>
@@ -212,7 +212,7 @@ export const hrefOnClick: StoryObj<{ handleClick: ReturnType<typeof fn> }> = {
 
 		await userEvent.click(el);
 
-		expect(el).toHaveAttribute("href", "https://reshaped.so");
+		expect(el).toHaveAttribute("href", "https://lang-ui.so");
 		expect(handleClick).toHaveBeenCalledTimes(1);
 		expect(handleClick).toHaveBeenCalledWith(expect.objectContaining({ target: el }));
 	},

@@ -1,9 +1,9 @@
 {
-	"name": "@reshaped/utilities",
+	"name": "@lang-ui/utilities",
 	"description": "Vanilla JS utilities for implementing common UI patterns",
 	"version": "3.11.0-canary.4",
 	"license": "MIT",
-	"homepage": "https://reshaped.so",
+	"homepage": "https://lang-ui.so",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/reshaped-ui/reshaped.git",
@@ -15,7 +15,7 @@
 	"author": {
 		"name": "Dmitry Belyaev",
 		"email": "blv.dmitry@gmail.com",
-		"url": "https://reshaped.so"
+		"url": "https://lang-ui.so"
 	},
 	"files": [
 		"dist/**/*"

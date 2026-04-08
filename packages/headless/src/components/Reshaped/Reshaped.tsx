@@ -6,9 +6,9 @@ import { SingletonHotkeysProvider } from "@/hooks/_internal/useSingletonHotkeys"
 import { SingletonKeyboardModeProvider } from "@/hooks/_internal/useSingletonKeyboardMode";
 import { SingletonRTLProvider } from "@/hooks/_internal/useSingletonRTL";
 
-import type * as T from "./Reshaped.types";
+import type * as T from "./Lang UI.types";
 
-const Reshaped: React.FC<T.Props> = (props) => {
+const Lang UI: React.FC<T.Props> = (props) => {
 	const { children } = props;
 
 	return (
@@ -20,6 +20,6 @@ const Reshaped: React.FC<T.Props> = (props) => {
 	);
 };
 
-Reshaped.displayName = "Headless.ReshapedProvider";
+Lang UI.displayName = "Headless.Lang UIProvider";
 
-export default Reshaped;
+export default Lang UI;

@@ -7,9 +7,9 @@ import {
 	useHandlerRef,
 	useScrollLock,
 	useToggle,
-} from "@reshaped/headless";
-import { classNames, useIsDismissible } from "@reshaped/headless";
-import { type FocusableElement } from "@reshaped/headless/internal";
+} from "@lang-ui/headless";
+import { classNames, useIsDismissible } from "@lang-ui/headless";
+import { type FocusableElement } from "@lang-ui/headless/internal";
 import React from "react";
 
 import Portal from "@/components/_private/Portal";

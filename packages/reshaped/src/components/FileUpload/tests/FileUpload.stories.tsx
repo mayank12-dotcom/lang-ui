@@ -16,7 +16,7 @@ export default {
 	component: FileUpload,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/file-upload",
+			url: "https://lang-ui.so/docs/components/file-upload",
 		},
 	},
 };

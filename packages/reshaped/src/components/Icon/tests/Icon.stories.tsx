@@ -13,7 +13,7 @@ export default {
 	component: Icon,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/utilities/icon",
+			url: "https://lang-ui.so/docs/utilities/icon",
 		},
 	},
 };
@@ -40,7 +40,7 @@ export const size = {
 				<Text variant="title-6">
 					<View direction="row" align="center" gap={2}>
 						<Icon svg={IconZap} />
-						<View.Item>Reshaped</View.Item>
+						<View.Item>Lang UI</View.Item>
 					</View>
 				</Text>
 			</Example.Item>

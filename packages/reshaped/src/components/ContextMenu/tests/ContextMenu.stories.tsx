@@ -11,7 +11,7 @@ export default {
 	component: ContextMenu,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/context-menu",
+			url: "https://lang-ui.so/docs/components/context-menu",
 		},
 	},
 };

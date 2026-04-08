@@ -1,4 +1,4 @@
-import type { Attributes, ClassName } from "@reshaped/headless";
+import type { Attributes, ClassName } from "@lang-ui/headless";
 
 export type SingleChangeArgs = {
 	/** Value of the slider, enables controlled mode */

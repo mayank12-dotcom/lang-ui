@@ -10,7 +10,7 @@ export default {
 	component: PinField,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/pin-field",
+			url: "https://lang-ui.so/docs/components/pin-field",
 		},
 	},
 };

@@ -9,7 +9,7 @@ export default {
 	component: Hidden,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/utilities/hidden",
+			url: "https://lang-ui.so/docs/utilities/hidden",
 		},
 	},
 };

@@ -10,7 +10,7 @@ export default {
 	component: Radio,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/radio",
+			url: "https://lang-ui.so/docs/components/radio",
 		},
 	},
 };

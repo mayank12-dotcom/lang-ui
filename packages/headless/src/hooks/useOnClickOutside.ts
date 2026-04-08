@@ -1,4 +1,4 @@
-import { keys } from "@reshaped/utilities";
+import { keys } from "@lang-ui/utilities";
 import React from "react";
 
 import useHandlerRef from "./useHandlerRef";

@@ -14,7 +14,7 @@ export default {
 	title: "Components/Toast",
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/toast",
+			url: "https://lang-ui.so/docs/components/toast",
 		},
 	},
 };
@@ -314,7 +314,7 @@ const Expanded = () => {
 
 	return (
 		<Example>
-			<Example.Item title="Custom width coming from Reshaped provider for bottom-start">
+			<Example.Item title="Custom width coming from Lang UI provider for bottom-start">
 				<Button
 					onClick={() => {
 						toast.show({

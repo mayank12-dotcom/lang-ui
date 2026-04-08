@@ -9,7 +9,7 @@
 - [#610](https://github.com/reshaped-ui/reshaped/pull/610) [`117ec29`](https://github.com/reshaped-ui/reshaped/commit/117ec29b7b48e2f26785626e457ebc6004231338) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Flyout: Fixed shadow dom and nested modal positioning
 
 - Updated dependencies []:
-  - @reshaped/headless@3.11.0-canary.4
+  - @lang-ui/headless@3.11.0-canary.4
 
 ## 3.11.0-canary.3
 
@@ -18,7 +18,7 @@
 - [`a904f6a`](https://github.com/reshaped-ui/reshaped/commit/a904f6a14d1fcaec645cd65ae625bbf1f3e8c5c7) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Canary release
 
 - Updated dependencies []:
-  - @reshaped/headless@3.11.0-canary.3
+  - @lang-ui/headless@3.11.0-canary.3
 
 ## 3.11.0-canary.2
 
@@ -29,7 +29,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @reshaped/headless@3.11.0-canary.2
+  - @lang-ui/headless@3.11.0-canary.2
 
 ## 3.11.0-canary.1
 
@@ -38,7 +38,7 @@
 - [`dc6ba78`](https://github.com/reshaped-ui/reshaped/commit/dc6ba78fd02526d83b995b55d7478c21a4ff08c8) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useElementId: exported from headless
 
 - Updated dependencies []:
-  - @reshaped/headless@3.11.0-canary.1
+  - @lang-ui/headless@3.11.0-canary.1
 
 ## 3.11.0-canary.0
 
@@ -51,7 +51,7 @@
 - [`e1a857d`](https://github.com/reshaped-ui/reshaped/commit/e1a857df0388529ddd1f4e241d4e3b28e858e499) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Badge: Updated text color to use on-background for neutral badges
 
 - Updated dependencies [[`7afb98c`](https://github.com/reshaped-ui/reshaped/commit/7afb98c3e146918fc50cd6ddd02d9229f1d74e97)]:
-  - @reshaped/headless@3.11.0-canary.0
+  - @lang-ui/headless@3.11.0-canary.0
 
 ## 3.10.2
 
@@ -60,7 +60,7 @@
 - [`a945557`](https://github.com/reshaped-ui/reshaped/commit/a945557e217d3c02c932dc0aac3e308f1fd4087b) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Flyout: Fixed safeArea timeout edge case causing the timer to stop without restarting
 
 - Updated dependencies []:
-  - @reshaped/headless@3.10.2
+  - @lang-ui/headless@3.10.2
 
 ## 3.10.1
 
@@ -69,25 +69,25 @@
 - [`52221cc`](https://github.com/reshaped-ui/reshaped/commit/52221cc6da56a03e8c2c8fc8e24ecdf644333362) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Fixed postcss-custom-media import
 
 - Updated dependencies []:
-  - @reshaped/headless@3.10.1
+  - @lang-ui/headless@3.10.1
 
 ## 3.10.0
 
 ### Minor Changes
 
-- [`b1381a3`](https://github.com/reshaped-ui/reshaped/commit/b1381a3636bf6bc5df2f9e9132c8bbcdd83904a5) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useKeyboardArrowNavigation: extracted to @reshaped/headless
+- [`b1381a3`](https://github.com/reshaped-ui/reshaped/commit/b1381a3636bf6bc5df2f9e9132c8bbcdd83904a5) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useKeyboardArrowNavigation: extracted to @lang-ui/headless
 
-- [`63836d6`](https://github.com/reshaped-ui/reshaped/commit/63836d6676d4ef1cfea94363639bbc316b580cb4) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useOnClickOutside: extracted to @reshaped/headless
+- [`63836d6`](https://github.com/reshaped-ui/reshaped/commit/63836d6676d4ef1cfea94363639bbc316b580cb4) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useOnClickOutside: extracted to @lang-ui/headless
 
-- [#572](https://github.com/reshaped-ui/reshaped/pull/572) [`e69c177`](https://github.com/reshaped-ui/reshaped/commit/e69c177c2bd2478670aed9b13d0ecef86f5ee740) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Extracted Reshaped provider and all of its dependencies into @reshaped/headless
+- [#572](https://github.com/reshaped-ui/reshaped/pull/572) [`e69c177`](https://github.com/reshaped-ui/reshaped/commit/e69c177c2bd2478670aed9b13d0ecef86f5ee740) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Extracted Lang UI provider and all of its dependencies into @lang-ui/headless
 
-- [`cdb1094`](https://github.com/reshaped-ui/reshaped/commit/cdb1094808d6666cdf145cd33c060ea57788f74c) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useHandlerRef: Exracted to @reshaped/headless
+- [`cdb1094`](https://github.com/reshaped-ui/reshaped/commit/cdb1094808d6666cdf145cd33c060ea57788f74c) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useHandlerRef: Exracted to @lang-ui/headless
 
-- [`c3fe7b1`](https://github.com/reshaped-ui/reshaped/commit/c3fe7b1492ddf19e704165e8edb4759a1cd3c38e) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useScrollLock: extracted to @reshaped/headless
+- [`c3fe7b1`](https://github.com/reshaped-ui/reshaped/commit/c3fe7b1492ddf19e704165e8edb4759a1cd3c38e) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useScrollLock: extracted to @lang-ui/headless
 
-- [`076b649`](https://github.com/reshaped-ui/reshaped/commit/076b649193de9253c52a969624289493eb8d96ab) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useToggle: extracted to @reshaped/headless
+- [`076b649`](https://github.com/reshaped-ui/reshaped/commit/076b649193de9253c52a969624289493eb8d96ab) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useToggle: extracted to @lang-ui/headless
 
-- [`8f210fa`](https://github.com/reshaped-ui/reshaped/commit/8f210fab4674770fe4f2b6f7be0277bf32a2a6aa) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Actionable: Extracted to @reshaped/headless
+- [`8f210fa`](https://github.com/reshaped-ui/reshaped/commit/8f210fab4674770fe4f2b6f7be0277bf32a2a6aa) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Actionable: Extracted to @lang-ui/headless
 
 - [#571](https://github.com/reshaped-ui/reshaped/pull/571) [`48dbffb`](https://github.com/reshaped-ui/reshaped/commit/48dbffb6e5a4c38783305a537bd6d7a3316a5513) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Flyout, Popover, DropdownMenu, Tooltip, ContextMenu, Autocomplete: Added contentZIndex property
 
@@ -95,7 +95,7 @@
 
 ### Patch Changes
 
-- [#565](https://github.com/reshaped-ui/reshaped/pull/565) [`f84659d`](https://github.com/reshaped-ui/reshaped/commit/f84659d7b75441dcc61a4908c5d09109a83117dd) Thanks [@blvdmitry](https://github.com/blvdmitry)! - classNames: moved to @reshaped/utilities and re-exported from reshaped
+- [#565](https://github.com/reshaped-ui/reshaped/pull/565) [`f84659d`](https://github.com/reshaped-ui/reshaped/commit/f84659d7b75441dcc61a4908c5d09109a83117dd) Thanks [@blvdmitry](https://github.com/blvdmitry)! - classNames: moved to @lang-ui/utilities and re-exported from reshaped
 
 - [#561](https://github.com/reshaped-ui/reshaped/pull/561) [`9d50a3e`](https://github.com/reshaped-ui/reshaped/commit/9d50a3edd1fe67b5246e9e3a65e101c9f72104f3) Thanks [@petewins](https://github.com/petewins)! - Fix Select component to support native optgroup elements. The component now correctly recognizes `<optgroup>` elements as valid containers for options, allowing native select dropdowns to render with grouped options.
 
@@ -138,12 +138,12 @@
 
 - [`872434b`](https://github.com/reshaped-ui/reshaped/commit/872434b6198008e1f9cc2ea478f6f0ec800a1540) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Text: Updated reset to use inherit instead of unset
 
-- [#570](https://github.com/reshaped-ui/reshaped/pull/570) [`a23c79d`](https://github.com/reshaped-ui/reshaped/commit/a23c79d4508f6d16a44e0d2372385b14c9d26691) Thanks [@blvdmitry](https://github.com/blvdmitry)! - lockScroll: moved to @reshaped/utilities and re-exported from reshaped
+- [#570](https://github.com/reshaped-ui/reshaped/pull/570) [`a23c79d`](https://github.com/reshaped-ui/reshaped/commit/a23c79d4508f6d16a44e0d2372385b14c9d26691) Thanks [@blvdmitry](https://github.com/blvdmitry)! - lockScroll: moved to @lang-ui/utilities and re-exported from reshaped
 
 - [`296d9eb`](https://github.com/reshaped-ui/reshaped/commit/296d9ebe3645d088650123275e17130be00acaf7) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Added baseline browser compatility for stylelint
 
 - Updated dependencies [[`b1381a3`](https://github.com/reshaped-ui/reshaped/commit/b1381a3636bf6bc5df2f9e9132c8bbcdd83904a5), [`63836d6`](https://github.com/reshaped-ui/reshaped/commit/63836d6676d4ef1cfea94363639bbc316b580cb4), [`e69c177`](https://github.com/reshaped-ui/reshaped/commit/e69c177c2bd2478670aed9b13d0ecef86f5ee740), [`cdb1094`](https://github.com/reshaped-ui/reshaped/commit/cdb1094808d6666cdf145cd33c060ea57788f74c), [`c3fe7b1`](https://github.com/reshaped-ui/reshaped/commit/c3fe7b1492ddf19e704165e8edb4759a1cd3c38e), [`076b649`](https://github.com/reshaped-ui/reshaped/commit/076b649193de9253c52a969624289493eb8d96ab), [`8f210fa`](https://github.com/reshaped-ui/reshaped/commit/8f210fab4674770fe4f2b6f7be0277bf32a2a6aa), [`6d9283f`](https://github.com/reshaped-ui/reshaped/commit/6d9283f3a235e470df521f01793efb456619a5b0)]:
-  - @reshaped/headless@3.10.0
+  - @lang-ui/headless@3.10.0
 
 ## 3.10.0-canary.16
 
@@ -152,7 +152,7 @@
 - [`1811785`](https://github.com/reshaped-ui/reshaped/commit/18117859d8e14650f32724462f8ca7158dfb2ef9) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Updated build order
 
 - Updated dependencies []:
-  - @reshaped/headless@3.10.0-canary.16
+  - @lang-ui/headless@3.10.0-canary.16
 
 ## 3.10.0-canary.15
 
@@ -161,7 +161,7 @@
 - [`c5cc8c5`](https://github.com/reshaped-ui/reshaped/commit/c5cc8c595ac1e788c79a18ee1545424e82f0df5e) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Modal: Fixed scroll locking when using together with swipe gestures
 
 - Updated dependencies []:
-  - @reshaped/headless@3.10.0-canary.15
+  - @lang-ui/headless@3.10.0-canary.15
 
 ## 3.10.0-canary.14
 
@@ -170,7 +170,7 @@
 - [`ccb87a5`](https://github.com/reshaped-ui/reshaped/commit/ccb87a565d70c49e89cf8cffb281e6b9a0af74a7) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Flyout: Addded additional edge cases handling for flyout closing
 
 - Updated dependencies []:
-  - @reshaped/headless@3.10.0-canary.14
+  - @lang-ui/headless@3.10.0-canary.14
 
 ## 3.10.0-canary.13
 
@@ -179,7 +179,7 @@
 - [`9b815e6`](https://github.com/reshaped-ui/reshaped/commit/9b815e6f8e2c7498ba09b1d102b1092a6b4fc65b) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Added stories to the build output
 
 - Updated dependencies []:
-  - @reshaped/headless@3.10.0-canary.13
+  - @lang-ui/headless@3.10.0-canary.13
 
 ## 3.10.0-canary.12
 
@@ -190,7 +190,7 @@
 - [`1896c60`](https://github.com/reshaped-ui/reshaped/commit/1896c6056b6632d86f008cd46e3d2304cd920d3d) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Modal: fix incorrect max-height value for the bottom position
 
 - Updated dependencies []:
-  - @reshaped/headless@3.10.0-canary.12
+  - @lang-ui/headless@3.10.0-canary.12
 
 ## 3.10.0-canary.11
 
@@ -205,7 +205,7 @@
 - [`296d9eb`](https://github.com/reshaped-ui/reshaped/commit/296d9ebe3645d088650123275e17130be00acaf7) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Added baseline browser compatility for stylelint
 
 - Updated dependencies []:
-  - @reshaped/headless@3.10.0-canary.11
+  - @lang-ui/headless@3.10.0-canary.11
 
 ## 3.10.0-canary.10
 
@@ -214,7 +214,7 @@
 - [`763b71b`](https://github.com/reshaped-ui/reshaped/commit/763b71b8b6f03aa72001d3ed20ff8e288cbeb6a9) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Updated tailwind theme definitions
 
 - Updated dependencies []:
-  - @reshaped/headless@3.10.0-canary.10
+  - @lang-ui/headless@3.10.0-canary.10
 
 ## 3.10.0-canary.9
 
@@ -223,7 +223,7 @@
 - [`ab5a698`](https://github.com/reshaped-ui/reshaped/commit/ab5a698f3066110d2e1a70e194b193a3bcca4340) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Added outline tokens support in the tailwind integration
 
 - Updated dependencies []:
-  - @reshaped/headless@3.10.0-canary.9
+  - @lang-ui/headless@3.10.0-canary.9
 
 ## 3.10.0-canary.8
 
@@ -232,30 +232,30 @@
 - [`e67ea70`](https://github.com/reshaped-ui/reshaped/commit/e67ea708c4f7d01e8b2ebcd7a117cba4526c2151) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Flyout: Removed the safe area buffer
 
 - Updated dependencies []:
-  - @reshaped/headless@3.10.0-canary.8
+  - @lang-ui/headless@3.10.0-canary.8
 
 ## 3.10.0-canary.7
 
 ### Minor Changes
 
-- [`b1381a3`](https://github.com/reshaped-ui/reshaped/commit/b1381a3636bf6bc5df2f9e9132c8bbcdd83904a5) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useKeyboardArrowNavigation: extracted to @reshaped/headless
+- [`b1381a3`](https://github.com/reshaped-ui/reshaped/commit/b1381a3636bf6bc5df2f9e9132c8bbcdd83904a5) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useKeyboardArrowNavigation: extracted to @lang-ui/headless
 
-- [`63836d6`](https://github.com/reshaped-ui/reshaped/commit/63836d6676d4ef1cfea94363639bbc316b580cb4) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useOnClickOutside: extracted to @reshaped/headless
+- [`63836d6`](https://github.com/reshaped-ui/reshaped/commit/63836d6676d4ef1cfea94363639bbc316b580cb4) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useOnClickOutside: extracted to @lang-ui/headless
 
-- [#572](https://github.com/reshaped-ui/reshaped/pull/572) [`e69c177`](https://github.com/reshaped-ui/reshaped/commit/e69c177c2bd2478670aed9b13d0ecef86f5ee740) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Extracted Reshaped provider and all of its dependencies into @reshaped/headless
+- [#572](https://github.com/reshaped-ui/reshaped/pull/572) [`e69c177`](https://github.com/reshaped-ui/reshaped/commit/e69c177c2bd2478670aed9b13d0ecef86f5ee740) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Extracted Lang UI provider and all of its dependencies into @lang-ui/headless
 
-- [`cdb1094`](https://github.com/reshaped-ui/reshaped/commit/cdb1094808d6666cdf145cd33c060ea57788f74c) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useHandlerRef: Exracted to @reshaped/headless
+- [`cdb1094`](https://github.com/reshaped-ui/reshaped/commit/cdb1094808d6666cdf145cd33c060ea57788f74c) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useHandlerRef: Exracted to @lang-ui/headless
 
-- [`c3fe7b1`](https://github.com/reshaped-ui/reshaped/commit/c3fe7b1492ddf19e704165e8edb4759a1cd3c38e) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useScrollLock: extracted to @reshaped/headless
+- [`c3fe7b1`](https://github.com/reshaped-ui/reshaped/commit/c3fe7b1492ddf19e704165e8edb4759a1cd3c38e) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useScrollLock: extracted to @lang-ui/headless
 
-- [`076b649`](https://github.com/reshaped-ui/reshaped/commit/076b649193de9253c52a969624289493eb8d96ab) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useToggle: extracted to @reshaped/headless
+- [`076b649`](https://github.com/reshaped-ui/reshaped/commit/076b649193de9253c52a969624289493eb8d96ab) Thanks [@blvdmitry](https://github.com/blvdmitry)! - useToggle: extracted to @lang-ui/headless
 
-- [`8f210fa`](https://github.com/reshaped-ui/reshaped/commit/8f210fab4674770fe4f2b6f7be0277bf32a2a6aa) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Actionable: Extracted to @reshaped/headless
+- [`8f210fa`](https://github.com/reshaped-ui/reshaped/commit/8f210fab4674770fe4f2b6f7be0277bf32a2a6aa) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Actionable: Extracted to @lang-ui/headless
 
 ### Patch Changes
 
 - Updated dependencies [[`b1381a3`](https://github.com/reshaped-ui/reshaped/commit/b1381a3636bf6bc5df2f9e9132c8bbcdd83904a5), [`63836d6`](https://github.com/reshaped-ui/reshaped/commit/63836d6676d4ef1cfea94363639bbc316b580cb4), [`e69c177`](https://github.com/reshaped-ui/reshaped/commit/e69c177c2bd2478670aed9b13d0ecef86f5ee740), [`cdb1094`](https://github.com/reshaped-ui/reshaped/commit/cdb1094808d6666cdf145cd33c060ea57788f74c), [`c3fe7b1`](https://github.com/reshaped-ui/reshaped/commit/c3fe7b1492ddf19e704165e8edb4759a1cd3c38e), [`076b649`](https://github.com/reshaped-ui/reshaped/commit/076b649193de9253c52a969624289493eb8d96ab), [`8f210fa`](https://github.com/reshaped-ui/reshaped/commit/8f210fab4674770fe4f2b6f7be0277bf32a2a6aa)]:
-  - @reshaped/headless@3.10.0-canary.7
+  - @lang-ui/headless@3.10.0-canary.7
 
 ## 3.10.0-canary.6
 
@@ -268,27 +268,27 @@
 ### Patch Changes
 
 - Updated dependencies [[`69d77c8`](https://github.com/reshaped-ui/reshaped/commit/69d77c83a005fbea596f31499b32ca0aa98b8feb)]:
-  - @reshaped/utilities@3.10.0-canary.6
+  - @lang-ui/utilities@3.10.0-canary.6
 
 ## 3.10.0-canary.5
 
 ### Patch Changes
 
 - Updated dependencies [[`54c43ee`](https://github.com/reshaped-ui/reshaped/commit/54c43ee5c55dd4427b2261ce52e742d5094b41f4)]:
-  - @reshaped/utilities@3.10.0-canary.5
+  - @lang-ui/utilities@3.10.0-canary.5
 
 ## 3.10.0-canary.4
 
 ### Patch Changes
 
-- [#565](https://github.com/reshaped-ui/reshaped/pull/565) [`f84659d`](https://github.com/reshaped-ui/reshaped/commit/f84659d7b75441dcc61a4908c5d09109a83117dd) Thanks [@blvdmitry](https://github.com/blvdmitry)! - classNames: moved to @reshaped/utilities and re-exported from reshaped
+- [#565](https://github.com/reshaped-ui/reshaped/pull/565) [`f84659d`](https://github.com/reshaped-ui/reshaped/commit/f84659d7b75441dcc61a4908c5d09109a83117dd) Thanks [@blvdmitry](https://github.com/blvdmitry)! - classNames: moved to @lang-ui/utilities and re-exported from reshaped
 
 - [#566](https://github.com/reshaped-ui/reshaped/pull/566) [`290dab3`](https://github.com/reshaped-ui/reshaped/commit/290dab39155d5b1ceb1a85c4f9006ba64af4fa90) Thanks [@its-monotype](https://github.com/its-monotype)! - Fix Slider to trigger `onChangeCommit` when changing values via keyboard interactions.
 
-- [#570](https://github.com/reshaped-ui/reshaped/pull/570) [`a23c79d`](https://github.com/reshaped-ui/reshaped/commit/a23c79d4508f6d16a44e0d2372385b14c9d26691) Thanks [@blvdmitry](https://github.com/blvdmitry)! - lockScroll: moved to @reshaped/utilities and re-exported from reshaped
+- [#570](https://github.com/reshaped-ui/reshaped/pull/570) [`a23c79d`](https://github.com/reshaped-ui/reshaped/commit/a23c79d4508f6d16a44e0d2372385b14c9d26691) Thanks [@blvdmitry](https://github.com/blvdmitry)! - lockScroll: moved to @lang-ui/utilities and re-exported from reshaped
 
 - Updated dependencies [[`f84659d`](https://github.com/reshaped-ui/reshaped/commit/f84659d7b75441dcc61a4908c5d09109a83117dd), [`b5ea590`](https://github.com/reshaped-ui/reshaped/commit/b5ea590927b1f70ffa4e5522531c3fe2fc0ae40a), [`a23c79d`](https://github.com/reshaped-ui/reshaped/commit/a23c79d4508f6d16a44e0d2372385b14c9d26691)]:
-  - @reshaped/utilities@3.10.0-canary.4
+  - @lang-ui/utilities@3.10.0-canary.4
 
 ## 3.9.1-canary.3
 
@@ -297,14 +297,14 @@
 - [`875c365`](https://github.com/reshaped-ui/reshaped/commit/875c3658f53aacf65dbf43812decc1e65d7631b0) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Badge: Fixed touch hitbox styles
 
 - Updated dependencies [[`ed23b45`](https://github.com/reshaped-ui/reshaped/commit/ed23b4575f401954ff137d9d510f384c5fa6df1b), [`5d83fff`](https://github.com/reshaped-ui/reshaped/commit/5d83fff1dc4b964fcf867aea062434d52d395a22), [`f2b61ed`](https://github.com/reshaped-ui/reshaped/commit/f2b61ed8365da5a9bc5c7fef034c980a9af91122)]:
-  - @reshaped/utilities@3.9.1-canary.3
+  - @lang-ui/utilities@3.9.1-canary.3
 
 ## 3.9.1-canary.2
 
 ### Patch Changes
 
 - Updated dependencies [[`4629116`](https://github.com/reshaped-ui/reshaped/commit/4629116fc1ae48f7b704271ca2ba7474b8b49f00)]:
-  - @reshaped/utilities@3.9.1-canary.2
+  - @lang-ui/utilities@3.9.1-canary.2
 
 ## 3.9.1-canary.1
 
@@ -319,7 +319,7 @@
 - [#562](https://github.com/reshaped-ui/reshaped/pull/562) [`b81637f`](https://github.com/reshaped-ui/reshaped/commit/b81637ff2139dedcaf4350c35b80ab2d0777c777) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Actionable: Updated render prop attributes types to better match router libraries types
 
 - Updated dependencies [[`4742502`](https://github.com/reshaped-ui/reshaped/commit/474250201d1ea8dc8e5f6086ac4e1e8af20b5404)]:
-  - @reshaped/utilities@3.9.1-canary.0
+  - @lang-ui/utilities@3.9.1-canary.0
 
 ## 3.9.0
 
@@ -454,7 +454,7 @@
 
 - [`f59b30a`](https://github.com/reshaped-ui/reshaped/commit/f59b30a90d0cc491e918b7e7bc1bdc5df4e07cae) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Image: Added missing fallback image attributes
 
-- [`8a54d20`](https://github.com/reshaped-ui/reshaped/commit/8a54d20b767053ea208dca9702b77bd8c0ec95c8) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Reshaped: Moved font theme reset to the reset layer
+- [`8a54d20`](https://github.com/reshaped-ui/reshaped/commit/8a54d20b767053ea208dca9702b77bd8c0ec95c8) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Lang UI: Moved font theme reset to the reset layer
 
 - [`0374264`](https://github.com/reshaped-ui/reshaped/commit/037426409fafec2f0c04a59de854010cbb843add) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Updated release process
 
@@ -499,7 +499,7 @@
 
 - [`f59b30a`](https://github.com/reshaped-ui/reshaped/commit/f59b30a90d0cc491e918b7e7bc1bdc5df4e07cae) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Image: Added missing fallback image attributes
 
-- [`8a54d20`](https://github.com/reshaped-ui/reshaped/commit/8a54d20b767053ea208dca9702b77bd8c0ec95c8) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Reshaped: Moved font theme reset to the reset layer
+- [`8a54d20`](https://github.com/reshaped-ui/reshaped/commit/8a54d20b767053ea208dca9702b77bd8c0ec95c8) Thanks [@blvdmitry](https://github.com/blvdmitry)! - Lang UI: Moved font theme reset to the reset layer
 
 ## 3.9.0-canary.27
 

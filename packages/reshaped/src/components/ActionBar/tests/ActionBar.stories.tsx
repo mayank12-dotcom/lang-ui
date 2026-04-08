@@ -1,4 +1,4 @@
-import { useToggle } from "@reshaped/headless";
+import { useToggle } from "@lang-ui/headless";
 import { StoryObj } from "@storybook/react-vite";
 import { expect } from "storybook/test";
 
@@ -12,7 +12,7 @@ export default {
 	component: ActionBar,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/action-bar",
+			url: "https://lang-ui.so/docs/components/action-bar",
 		},
 	},
 };

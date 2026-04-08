@@ -10,7 +10,7 @@ export default {
 	component: Card,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/card",
+			url: "https://lang-ui.so/docs/components/card",
 		},
 	},
 };
@@ -120,11 +120,11 @@ export const onClick: StoryObj<{ handleClick: ReturnType<typeof fn> }> = {
 
 export const href: StoryObj = {
 	name: "href",
-	render: () => <Card href="https://reshaped.so">Trigger</Card>,
+	render: () => <Card href="https://lang-ui.so">Trigger</Card>,
 	play: async ({ canvas }) => {
 		const el = canvas.getByRole("link");
 
-		expect(el).toHaveAttribute("href", "https://reshaped.so");
+		expect(el).toHaveAttribute("href", "https://lang-ui.so");
 	},
 };
 

@@ -12,7 +12,7 @@ export default {
 	component: Avatar,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/avatar",
+			url: "https://lang-ui.so/docs/components/avatar",
 		},
 	},
 };

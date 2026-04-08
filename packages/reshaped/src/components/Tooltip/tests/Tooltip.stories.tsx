@@ -13,7 +13,7 @@ export default {
 	component: Tooltip,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/tooltip",
+			url: "https://lang-ui.so/docs/components/tooltip",
 		},
 	},
 };

@@ -15,7 +15,7 @@ export default {
 	component: Tabs,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/tabs",
+			url: "https://lang-ui.so/docs/components/tabs",
 		},
 	},
 };

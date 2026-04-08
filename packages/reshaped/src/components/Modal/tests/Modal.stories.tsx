@@ -1,4 +1,4 @@
-import { useToggle } from "@reshaped/headless";
+import { useToggle } from "@lang-ui/headless";
 import { StoryObj } from "@storybook/react-vite";
 import React from "react";
 import { expect, fn, userEvent, waitFor, within } from "storybook/test";
@@ -19,7 +19,7 @@ export default {
 	component: Modal,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/modal",
+			url: "https://lang-ui.so/docs/components/modal",
 		},
 	},
 };

@@ -2,7 +2,7 @@ import type { AlignerProps as BaseAlignerProps } from "@/components/_private/Ali
 import type { ActionableProps } from "@/components/Actionable";
 import type { IconProps } from "@/components/Icon";
 import type * as G from "@/types/global";
-import type { Attributes, ClassName } from "@reshaped/headless";
+import type { Attributes, ClassName } from "@lang-ui/headless";
 import type React from "react";
 
 export type Size = "xlarge" | "large" | "medium" | "small";

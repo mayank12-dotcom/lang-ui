@@ -1,7 +1,7 @@
 import type { HexColor, Hue, OklchColor } from "@/themes/_generator/tokens/color/color.types";
 import type { PassedThemeDefinition } from "@/themes/_generator/tokens/types";
 
-export type ReshapedConfig = {
+export type Lang UIConfig = {
 	themes?: Record<string, PassedThemeDefinition>;
 	themeFragments?: Record<string, PassedThemeDefinition>;
 	themeOptions?: {

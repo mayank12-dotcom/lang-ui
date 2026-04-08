@@ -1,4 +1,4 @@
-import { useHotkeys } from "@reshaped/headless";
+import { useHotkeys } from "@lang-ui/headless";
 import { StoryObj } from "@storybook/react-vite";
 import { expect } from "storybook/test";
 
@@ -13,7 +13,7 @@ export default {
 	component: Hotkey,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/hotkey",
+			url: "https://lang-ui.so/docs/components/hotkey",
 		},
 	},
 };

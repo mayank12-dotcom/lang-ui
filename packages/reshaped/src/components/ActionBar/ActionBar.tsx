@@ -1,4 +1,4 @@
-import { classNames } from "@reshaped/headless";
+import { classNames } from "@lang-ui/headless";
 
 import View from "@/components/View";
 import { responsiveVariables } from "@/utilities/props";

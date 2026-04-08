@@ -10,7 +10,7 @@ export default {
 	component: Checkbox,
 	parameters: {
 		iframe: {
-			url: "https://reshaped.so/docs/components/checkbox",
+			url: "https://lang-ui.so/docs/components/checkbox",
 		},
 	},
 };

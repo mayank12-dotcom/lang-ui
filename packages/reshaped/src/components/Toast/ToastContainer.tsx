@@ -1,7 +1,7 @@
 "use client";
 
-import { TrapFocus, classNames } from "@reshaped/headless";
-import { checkKeyboardMode } from "@reshaped/headless/internal";
+import { TrapFocus, classNames } from "@lang-ui/headless";
+import { checkKeyboardMode } from "@lang-ui/headless/internal";
 import React from "react";
 
 import { onNextFrame } from "@/utilities/animation";

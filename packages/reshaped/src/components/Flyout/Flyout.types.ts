@@ -1,7 +1,7 @@
 import React from "react";
 
-import type { Attributes, ClassName } from "@reshaped/headless";
-import type { TrapMode, Coordinates } from "@reshaped/headless/internal";
+import type { Attributes, ClassName } from "@lang-ui/headless";
+import type { TrapMode, Coordinates } from "@lang-ui/headless/internal";
 
 /**
  * Utility
