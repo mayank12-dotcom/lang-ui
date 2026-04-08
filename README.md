@@ -1,9 +1,6 @@
-# Reshaped
+# Lang UI
 
-<img width="2400" height="1260" alt="3 0 (1)" src="https://github.com/user-attachments/assets/ef632fe9-9446-430f-b87d-bebebe6fb595" />
-<br /><br />
-
-Reshaped is a library with professionally crafted React & Figma components for building beautiful products or starting your own design system.
+Lang UI is a library with professionally crafted React & Figma components for building beautiful products or starting your own design system.
 
 <br />
 
