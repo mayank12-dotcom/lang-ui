@@ -27,7 +27,7 @@ const config: StorybookConfig = {
 		},
 	},
 	stories: [
-		"../packages/reshaped/src/**/*.stories.tsx",
+		"../packages/lang-ui/src/**/*.stories.tsx",
 		"../packages/headless/src/**/*.stories.tsx",
 	],
 	staticDirs: ["./public"],
@@ -55,7 +55,7 @@ const config: StorybookConfig = {
 			plugins: [
 				tsconfigPaths({
 					projects: [
-						resolve(__dirname, "../packages/reshaped/tsconfig.json"),
+						resolve(__dirname, "../packages/lang-ui/tsconfig.json"),
 						resolve(__dirname, "../packages/headless/tsconfig.json"),
 					],
 				}),

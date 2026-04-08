@@ -24,9 +24,9 @@ program
 		const originPath = process.cwd();
 		let configPath;
 
-		const cjsConfigPath = path.resolve(originPath, "reshaped.config.cjs");
-		const jsConfigPath = path.resolve(originPath, "reshaped.config.js");
-		const tsConfigPath = path.resolve(originPath, "reshaped.config.ts");
+		const cjsConfigPath = path.resolve(originPath, "lang-ui.config.cjs");
+		const jsConfigPath = path.resolve(originPath, "lang-ui.config.js");
+		const tsConfigPath = path.resolve(originPath, "lang-ui.config.ts");
 
 		if (passedConfigPath) {
 			const attemptPath = path.resolve(originPath, passedConfigPath);

@@ -21,7 +21,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/reshaped-ui/reshaped.git",
-    "directory": "packages/reshaped"
+    "directory": "packages/lang-ui"
   },
   "bugs": {
     "url": "https://github.com/reshaped-ui/reshaped/issues"
@@ -66,7 +66,7 @@
       "default": "./dist/bundle.js"
     },
     "./bundle.css": "./dist/bundle.css",
-    "./themes/reshaped/*": "./dist/themes/reshaped/*",
+    "./themes/lang-ui/*": "./dis./themes/lang-ui/*",
     "./themes/slate/*": "./dist/themes/slate/*",
     "./themes/figma/*": "./dist/themes/figma/*",
     "./themes/fragments/twitter/*": "./dist/themes/fragments/twitter/*",
@@ -79,7 +79,7 @@
     "clean": "bash ./bin/clean.sh",
     "dev": "storybook dev -p 3001 -c ../../.storybook --disable-telemetry",
     "build": "pnpm clean && pnpm build:stories && pnpm build:esm && pnpm build:css && pnpm build:bundle",
-    "build:themes": "node bin/cli.js theming --config dist/cli/theming/reshaped.config.js --output src/themes",
+    "build:themes": "node bin/cli.js theming --config dist/cli/theming/lang-ui.config.js --output src/themes",
     "build:esm": "tsc -p tsconfig.esm.json && resolve-tspaths -p tsconfig.esm.json",
     "build:css": "postcss \"src/**/*.css\" --dir dist --base src --config tools/build",
     "build:stories": "tsc -p tsconfig.stories.json && resolve-tspaths -p tsconfig.stories.json",

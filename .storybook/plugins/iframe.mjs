@@ -2,7 +2,7 @@ import React from "react";
 import { AddonPanel } from "storybook/internal/components";
 import { addons, types } from "storybook/manager-api";
 
-const ADDON_ID = "reshaped-iframe";
+const ADDON_ID = "lang-ui-iframe";
 const PANEL_ID = `${ADDON_ID}/panel`;
 
 addons.register(ADDON_ID, (api) => {

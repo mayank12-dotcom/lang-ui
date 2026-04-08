@@ -1,5 +1,5 @@
 {
-	"name": "@reshaped/root",
+	"name": "@lang-ui/root",
 	"private": true,
 	"description": "Lang UI monorepo root",
 	"license": "MIT",
@@ -12,13 +12,13 @@
 		"clean": "pnpm -r run clean",
 		"changeset": "changeset",
 		"build": "pnpm -r run build",
-		"build:stories": "pnpm --filter reshaped run build:stories",
-		"build:themes": "pnpm --filter reshaped run build:themes",
+		"build:stories": "pnpm --filter lang-ui run build:stories",
+		"build:themes": "pnpm --filter lang-ui run build:themes",
 		"build:storybook": "storybook build -o dist/app --disable-telemetry",
 		"build:chromatic": "STORYBOOK_ENV=chromatic storybook build",
 		"release": "bash ./bin/release.sh",
 		"release:canary": "bash ./bin/release-canary.sh",
-		"release:local": "pnpm --filter reshaped run release:local",
+		"release:local": "pnpm --filter lang-ui run release:local",
 		"chromatic": "chromatic -b build:chromatic --project-token=$(cat .chromatic) --only-changed --externals '.storybook/public/**'",
 		"test:vrt": "pnpm chromatic",
 		"test:browser": "pnpm -r run test:browser",
@@ -93,22 +93,22 @@
 	"size-limit": [
 		{
 			"name": "Library / JS",
-			"path": "packages/reshaped/dist/bundle.js",
+			"path": "packages/lang-ui/dist/bundle.js",
 			"webpack": false
 		},
 		{
 			"name": "Library / CSS",
-			"path": "packages/reshaped/dist/bundle.css",
+			"path": "packages/lang-ui/dist/bundle.css",
 			"webpack": false
 		},
 		{
 			"name": "Theming / JS",
-			"path": "packages/reshaped/dist/tests/themingWithoutDefinition.js",
+			"path": "packages/lang-ui/dist/tests/themingWithoutDefinition.js",
 			"webpack": true
 		},
 		{
 			"name": "Theming with a default theme definition / JS",
-			"path": "packages/reshaped/dist/tests/themingWithDefinition.js",
+			"path": "packages/lang-ui/dist/tests/themingWithDefinition.js",
 			"webpack": true
 		}
 	]
